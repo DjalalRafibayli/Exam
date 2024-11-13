@@ -1,0 +1,141 @@
+﻿@using Container.Base
+@using Container.Models.Lesson
+@model ResponseModel<LessonsList>
+
+
+<div class="card border border-300 mb-3">
+    <div class="card-header border-bottom border-300 bg-soft">
+        <div class="row flex-between-center g-2">
+            <div class="col-auto">
+                <h4 class="mb-0">Dərs</h4>
+            </div>
+        </div>
+    </div>
+    <div class="card-body">
+        <div class="row list">
+            <div class="col-lg-12 col-md-12 col-sm-12">
+                <div class="border border-300 rounded-2 mb-4 bg-white dark__bg-1000 shadow-sm">
+
+                    <div class="p-4 code-to-copy">
+                        <button class="btn btn-outline-primary me-1 mb-1" onclick="window.location.href='/Lessons/add'" type="button">
+                            <span class="fas fa-plus me-2" data-fa-transform="shrink-3"></span> Yeni
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-12 col-md-12 col-sm-12">
+                <div class="widget blank no-padding">
+                    <div class="panel panel-default work-progress-table">
+                        <table class="table table-responsive-sm table-bordered">
+                            <thead>
+                                <tr>
+                                    <th>№ </th>
+                                    <th>Kod</th>
+                                    <th>Ad</th>
+                                    <th>Sinif</th>
+                                    <th>Muellim Ad</th>
+                                    <th>Muellim Soyad</th>
+                                    <th><span class="text-900 fs-1 fas fa-edit"></span></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @{
+                                    int i = 1;
+                                    foreach (var item in Model.Data.Lessons)
+                                    {
+                                        <tr>
+                                            <td>
+                                                @(i++)
+                                            </td>
+                                            <td>@item.Code</td>
+                                            <td>@item.Name</td>
+                                            <td>@item.Class</td>
+                                            <td>@item.TeacherName</td>
+                                            <td>@item.TeacherLastName</td>
+                                            <td>
+                                                <button class="btn btn-outline-primary btn-icon me-1 fs--2  px-0" onclick="window.location.href='/Lesson/edit/@item.Id'" type="button">
+                                                    <span class="fas fa-edit fs-1" data-fa-transform="shrink-3"></span>
+                                                </button>
+                                            </td>
+                                        </tr>
+                                    }
+                                }
+                            </tbody>
+                        </table>
+                        <nav aria-label="Page navigation example">
+                            <ul class="pagination justify-content-center">
+                                @{
+                                    var get_page = Model.Data.activePage;
+                                    var pageCount = Model.Data.totalPageCount;
+                                    var currentPage = get_page <= pageCount ? get_page : pageCount;
+
+                                    var firstPageLink = "?page=1";
+                                    var lastPageLink = $"?page{pageCount}";
+                                    var nextPageLink = $"?page={currentPage + 1}";
+                                    var previosPageLink = $"?page={(currentPage - 1)}";
+                                    var pageLink = "?page=";
+
+
+                                    if (pageCount > 1 && (currentPage - 3 >= 0))
+                                    {
+                                        <li class="page-item">
+                                            <a class="page-link" href="<?=$firstPageLink?>" tabindex="-1" aria-disabled="true">
+                                                <i class="fas fa-angle-double-left"></i>
+                                            </a>
+                                        </li>
+                                    }
+                                    if (pageCount > 1 && currentPage != 1)
+                                    {
+                                        <li class="page-item">
+                                            <a class="page-link" href="@previosPageLink" tabindex="-1" aria-disabled="true">
+                                                <i class="fas fa-angle-left"></i>
+                                            </a>
+                                        </li>
+                                    }
+
+
+                                    var startPage = currentPage - 2 > 0 ? currentPage - 2 : 1;
+                                    var limitPage = startPage + 4 <= pageCount ? startPage + 4 : pageCount;
+                                    var active = "";
+                                    for (i = startPage; i <= limitPage; i++)
+                                    {
+                                        if (currentPage == i)
+                                        {
+                                            active = "active";
+                                        }
+                                        else
+                                        {
+                                            active = "";
+                                        }
+
+                                        <li class="page-item @active">
+                                            <a class="page-link" href="@(pageLink + i)">@i</a>
+                                        </li>
+                                    }
+                                    if (currentPage + 1 <= pageCount)
+                                    {
+                                        <li class="page-item">
+                                            <a class="page-link" href="@nextPageLink">
+                                                <i class="fas fa-angle-right"></i>
+                                            </a>
+                                        </li>
+                                    }
+                                    if ((pageCount - 2) >= currentPage)
+                                    {
+                                        <li class="page-item">
+                                            <a class="page-link" href="@lastPageLink">
+                                                <i class="fas fa-angle-double-right"></i>
+                                            </a>
+                                        </li>
+                                    }
+                                }
+
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

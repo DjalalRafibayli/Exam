@@ -1,0 +1,533 @@
+﻿<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- ===============================================-->
+    <!--    Document Title-->
+    <!-- ===============================================-->
+    <title>Phoenix</title>
+
+    <!-- ===============================================-->
+    <!--    Favicons-->
+    <!-- ===============================================-->
+    <link rel="apple-touch-icon" sizes="180x180" href="~/assets/img/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="~/assets/img/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="~/assets/img/favicons/favicon-16x16.png">
+    <link rel="shortcut icon" type="image/x-icon" href="~/assets/img/favicons/favicon.ico">
+    <link rel="manifest" href="~/assets/img/favicons/manifest.json">
+    <link rel="stylesheet" href="~/assets/css/bootstrap.min.css">
+
+    <meta name="msapplication-TileImage" content="~/assets/img/favicons/mstile-150x150.png">
+    <meta name="theme-color" content="#ffffff">
+    <script src="~/vendors/imagesloaded/imagesloaded.pkgd.min.js"></script>
+    <script src="~/vendors/simplebar/simplebar.min.js"></script>
+    <script src="~/assets/js/config.js"></script>
+
+    <!-- ===============================================-->
+    <!--    Stylesheets-->
+    <!-- ===============================================-->
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700;800;900&amp;display=swap"
+          rel="stylesheet">
+    <link href="~/vendors/simplebar/simplebar.min.css" rel="stylesheet">
+    <link href="~/assets/css/unicons.iconscout.com/css/line.css" rel="stylesheet">
+    <link href="~/assets/css/theme-rtl.min.css" type="text/css" rel="stylesheet" id="style-rtl">
+    <link href="~/assets/css/theme.min.css" type="text/css" rel="stylesheet" id="style-default">
+    <link href="~/assets/css/user-rtl.min.css" type="text/css" rel="stylesheet" id="user-style-rtl">
+    <link href="~/assets/css/user.min.css" type="text/css" rel="stylesheet" id="user-style-default">
+    <link href="~/assets/css/fancybox.css " type="text/css" rel="stylesheet">
+    <link href="~/vendors/choices/choices.min.css" rel="stylesheet">
+    <link href="~/vendors/flatpickr/flatpickr.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="~/assets/css/fancybox.css" />
+    <link rel="stylesheet" href="~/assets/css/jquery.bootstrap-touchspin.css" />
+    <style>
+        .form-check .form-check-input {
+            float: none !important;
+            margin-left: -1.25em !important;
+        }
+    </style>
+    <script>
+        var phoenixIsRTL = window.config.config.phoenixIsRTL;
+        if (phoenixIsRTL) {
+            var linkDefault = document.getElementById('style-default');
+            var userLinkDefault = document.getElementById('user-style-default');
+            linkDefault.setAttribute('disabled', true);
+            userLinkDefault.setAttribute('disabled', true);
+            document.querySelector('html').setAttribute('dir', 'rtl');
+        } else {
+            var linkRTL = document.getElementById('style-rtl');
+            var userLinkRTL = document.getElementById('user-style-rtl');
+            linkRTL.setAttribute('disabled', true);
+            userLinkRTL.setAttribute('disabled', true);
+        }
+    </script>
+</head>
+
+<body>
+    <!-- ===============================================-->
+    <!--    Main Content-->
+    <!-- ===============================================-->
+    <main class="main" id="top">
+        <div class="container-fluid px-0" data-layout="container">
+
+
+            <nav class="navbar navbar-vertical navbar-expand-lg" style="display:none;">
+                <script>
+                    var navbarStyle = window.config.config.phoenixNavbarStyle;
+                    if (navbarStyle && navbarStyle !== 'transparent') {
+                        document.querySelector('body').classList.add(`navbar-${navbarStyle}`);
+                    }
+                </script>
+                <div class="collapse navbar-collapse" id="navbarVerticalCollapse">
+                    <!-- scrollbar removed-->
+                    <div class="navbar-vertical-content">
+                        <ul class="navbar-nav flex-column" id="navbarVerticalNav">
+                            <li class="nav-item">
+                                <!-- label-->
+                                <div class="nav-item-wrapper">
+                                    <a class="nav-link  label-1" href="/lessons" role="button"
+                                       data-bs-toggle="" aria-expanded="false" aria-controls="multi-level">
+                                        <div class="d-flex align-items-center">
+                                            <span class="nav-link-icon"><i class="fa fa-home"></i></span>
+                                            <span class="nav-link-text-wrapper">
+                                                <span class="nav-link-text">
+                                                    Dersler
+                                                </span>
+                                            </span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="nav-item-wrapper">
+                                    <a class="nav-link  label-1" href="/student" role="button"
+                                       data-bs-toggle="" aria-expanded="false" aria-controls="multi-level">
+                                        <div class="d-flex align-items-center">
+                                            <span class="nav-link-icon"><i class="fa fa-bars"></i></span>
+                                            <span class="nav-link-text-wrapper">
+                                                <span class="nav-link-text">Sagirdler</span>
+                                            </span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="nav-item-wrapper">
+                                    <a class="nav-link  label-1" href="/exams" role="button"
+                                       data-bs-toggle="" aria-expanded="false" aria-controls="multi-level">
+                                        <div class="d-flex align-items-center">
+                                            <span class="nav-link-icon"><i class="fa fa-bars"></i></span>
+                                            <span class="nav-link-text-wrapper">
+                                                <span class="nav-link-text">Imtahanlar</span>
+                                            </span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="navbar-vertical-footer">
+                    <button class="btn navbar-vertical-toggle border-0 fw-semi-bold w-100 white-space-nowrap d-flex align-items-center">
+                        <span class="uil uil-left-arrow-to-left fs-0"></span><span class="uil uil-arrow-from-right fs-0"></span><span class="navbar-vertical-footer-text ms-2">Collapsed View</span>
+                    </button>
+                </div>
+            </nav>
+            <nav class="navbar navbar-top fixed-top navbar-expand" id="navbarDefault" style="display:none;">
+                <div class="collapse navbar-collapse justify-content-between">
+                    <div class="navbar-logo">
+                        <button class="btn navbar-toggler navbar-toggler-humburger-icon hover-bg-transparent"
+                                type="button" data-bs-toggle="collapse" data-bs-target="#navbarVerticalCollapse"
+                                aria-controls="navbarVerticalCollapse" aria-expanded="false" aria-label="Toggle Navigation">
+                            <span class="navbar-toggle-icon">
+                                <span class="toggle-line"></span>
+                            </span>
+                        </button>
+                        <a class="navbar-brand me-1 me-sm-3" href="http://simpleadmin.loc/admin/">
+                            <div class="d-flex align-items-center">
+                                <div class="d-flex align-items-center">
+                                    <img src="~/assets/img/icons/logo.png" alt="phoenix" width="27" />
+                                    <p class="logo-text ms-2 d-none d-sm-block">phoenix</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <ul class="navbar-nav navbar-nav-icons flex-row">
+                        <li class="nav-item">
+                            <div class="theme-control-toggle fa-icon-wait px-2">
+                                <input class="form-check-input ms-0 theme-control-toggle-input" type="checkbox"
+                                       data-theme-control="phoenixTheme" value="dark" id="themeControlToggle" /><label class="mb-0 theme-control-toggle-label theme-control-toggle-light"
+                                                                                                                       for="themeControlToggle" data-bs-toggle="tooltip" data-bs-placement="left"
+                                                                                                                       title="Switch theme">
+                                    <span class="icon" data-feather="moon"></span>
+                                </label><label class="mb-0 theme-control-toggle-label theme-control-toggle-dark"
+                                               for="themeControlToggle" data-bs-toggle="tooltip" data-bs-placement="left"
+                                               title="Switch theme">
+                                    <span class="icon" data-feather="sun"></span>
+                                </label>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link lh-1 pe-0" id="navbarDropdownUser" href="#!" role="button"
+                               data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-haspopup="true"
+                               aria-expanded="false">
+                                <div class="avatar avatar-l ">
+                                    <img class="rounded-circle " src="~/assets/img/team/40x40/avatar.webp" alt="" />
+                                </div>
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-end navbar-dropdown-caret py-0 dropdown-profile shadow border border-300"
+                                 aria-labelledby="navbarDropdownUser">
+                                <div class="card position-relative border-0">
+                                    <div class="card-body p-0">
+                                        <div class="text-center pt-4 pb-3">
+                                            <div class="avatar avatar-xl ">
+                                                <img class="rounded-circle " src="~/assets/img/team/72x72/avatar.webp"
+                                                     alt="" />
+                                            </div>
+                                            <h6 class="mt-2 text-black">Jalal</h6>
+                                        </div>
+                                    </div>
+                                    <div class="card-footer p-0 ">
+                                        <div class="px-3">
+                                            <a class="btn btn-phoenix-secondary d-flex flex-center w-100"
+                                               href="http://simpleadmin.loc/admin/logout.php">
+                                                <span class="me-2" data-feather="log-out"> </span>Çıxış
+                                            </a>
+                                        </div>
+                                        <!-- <div class="my-2 text-center fw-bold fs--2 text-600"><a class="text-600 me-1" href="#!">Privacy
+                                            policy</a>&bull;<a class="text-600 mx-1" href="#!">Terms</a>&bull;<a class="text-600 ms-1"
+                                            href="#!">Cookies</a></div> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <script>
+                var navbarTopShape = window.config.config.phoenixNavbarTopShape;
+                var navbarPosition = window.config.config.phoenixNavbarPosition;
+                var body = document.querySelector('body');
+                var navbarDefault = document.querySelector('#navbarDefault');
+
+                var documentElement = document.documentElement;
+                var navbarVertical = document.querySelector('.navbar-vertical');
+                navbarDefault.removeAttribute('style');
+                navbarVertical.removeAttribute('style');
+                var navbarVerticalStyle = window.config.config.phoenixNavbarVerticalStyle;
+                var navbarVertical = document.querySelector('.navbar-vertical');
+                if (navbarVerticalStyle === 'darker') {
+                    navbarVertical.classList.add('navbar-darker');
+                }
+            </script>
+            <div class="content">
+               @RenderBody()
+
+                <footer class="footer position-absolute">
+                    <div class="row g-0 justify-content-between align-items-center h-100">
+                        <div class="col-12 col-sm-auto text-center">
+                            <p class="mb-0 mt-2 mt-sm-0 text-900">
+                                Thank you for creating with Phoenix<span class="d-none d-sm-inline-block"></span><span class="d-none d-sm-inline-block mx-1">|</span><br class="d-sm-none" />2023 &copy;<a class="mx-1" href="https://themewagon.com/">Themewagon</a>
+                            </p>
+                        </div>
+                        <div class="col-12 col-sm-auto text-center">
+                            <p class="mb-0 text-600">v1.11.0</p>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </main><!-- ===============================================-->
+    <!--    End of Main Content-->
+    <!-- ===============================================-->
+    <!-- ===============================================-->
+    <!--    JavaScripts-->
+    <!-- ===============================================-->
+    <script src="~/vendors/popper/popper.min.js"></script>
+    <script src="~/vendors/bootstrap/bootstrap.min.js"></script>
+    <script src="~/vendors/anchorjs/anchor.min.js"></script>
+    <script src="~/vendors/is/is.min.js"></script>
+    <script src="~/vendors/fontawesome/all.min.js"></script>
+    <script src="~/vendors/lodash/lodash.min.js"></script>
+    <script src="~/vendors/list.js/list.min.js"></script>
+    <script src="~/vendors/feather-icons/feather.min.js"></script>
+    <script src="~/vendors/dayjs/dayjs.min.js"></script>
+    <script src="~/vendors/choices/choices.min.js"></script>
+    <script src="~/assets/js/phoenix.js"></script>
+    <script src="~/assets/js/polyfill.min58be.js"></script>
+    <script src="~/assets/js/axios.min.js"></script>
+    <script src="~/assets/js/sweetalert2.all.min.js"></script>
+    <script src="~/assets/js/jquery.min.js"></script>
+    <script src="~/assets/js/fancybox.umd.js"></script>
+    <script src="~/assets/js/jquery.bootstrap-touchspin.js"></script>
+    <script>
+        function Delete(url, id) {
+            var param = {
+                id: id
+            };
+
+            Swal.fire({
+                title: 'Məlumatı silmək istədiyinizə əminsinizmi?',
+                showCancelButton: true,
+                confirmButtonText: 'Bəli',
+                cancelButtonText: 'Xeyr',
+            }).then((result) => {
+                if (result.isConfirmed) {
+                    axios.post(url, param)
+                        .then(r => {
+                            if (r.data) {
+                                Swal.fire({
+                                    title: 'Diqqət!',
+                                    text: 'Məlumat silindi!',
+                                    icon: 'success',
+                                }).then((result) => {
+                                    if (result.isConfirmed) {
+                                        location.reload();
+                                    }
+                                });
+                            } else {
+                                Swal.fire({
+                                    title: 'Diqqət!',
+                                    text: 'Məlumat silinərkən xəta baş verdi!',
+                                    icon: 'error',
+                                });
+                            }
+                        })
+                        .catch(function (e) {
+                            Swal.fire({
+                                title: 'Diqqət!',
+                                text: 'Xəta baş verdi!',
+                                icon: 'error',
+                            });
+                        });
+                }
+            });
+        }
+        function ActiveDeactive(url, id, active) {
+            var param = {
+                id: id,
+                active: active
+            };
+
+            Swal.fire({
+                title: 'Məlumatı aktiv/deaktiv etmək istədiyinizə əminsinizmi?',
+                showCancelButton: true,
+                confirmButtonText: 'Bəli',
+                cancelButtonText: 'Xeyr',
+            }).then((result) => {
+                if (result.isConfirmed) {
+                    axios.post(url, param)
+                        .then(r => {
+                            if (r.data) {
+                                Swal.fire({
+                                    title: 'Diqqət!',
+                                    text: 'Məlumat aktiv/deaktiv edildi!',
+                                    icon: 'success',
+                                }).then((result) => {
+                                    if (result.isConfirmed) {
+                                        location.reload();
+                                    }
+                                });
+                            } else {
+                                Swal.fire({
+                                    title: 'Diqqət!',
+                                    text: 'Məlumat aktiv/deaktiv edilərkən xəta baş verdi!',
+                                    icon: 'error',
+                                });
+                            }
+                        })
+                        .catch(function (e) {
+                            Swal.fire({
+                                title: 'Diqqət!',
+                                text: 'Xəta baş verdi!',
+                                icon: 'error',
+                            });
+                        });
+                }
+            });
+        }
+        function ActiveDeactiveCh(url, active) {
+            var ids = [];
+            var checkboxes = document.querySelectorAll('input[type=checkbox]:checked')
+
+            for (var i = 0; i < checkboxes.length; i++) {
+                ids.push(checkboxes[i].value)
+            }
+            var param = {
+                ids: ids,
+                active: active
+            };
+
+            Swal.fire({
+                title: 'Məlumatları aktiv/deaktiv etmək istədiyinizə əminsinizmi?',
+                showCancelButton: true,
+                confirmButtonText: 'Bəli',
+                cancelButtonText: 'Xeyr',
+            }).then((result) => {
+                if (result.isConfirmed) {
+                    axios.post(url, param)
+                        .then(r => {
+                            if (r.data) {
+                                Swal.fire({
+                                    title: 'Diqqət!',
+                                    text: 'Məlumatlar aktiv/deaktiv edildi!',
+                                    icon: 'success',
+                                }).then((result) => {
+                                    if (result.isConfirmed) {
+                                        location.reload();
+                                    }
+                                });
+                            } else {
+                                Swal.fire({
+                                    title: 'Diqqət!',
+                                    text: 'Məlumatlar aktiv/deaktiv edilərkən xəta baş verdi!',
+                                    icon: 'error',
+                                });
+                            }
+                        })
+                        .catch(function (e) {
+                            Swal.fire({
+                                title: 'Diqqət!',
+                                text: 'Xəta baş verdi!',
+                                icon: 'error',
+                            });
+                        });
+                }
+            });
+        }
+        function DeleteCh(url) {
+            var ids = [];
+            var checkboxes = document.querySelectorAll('input[type=checkbox]:checked')
+
+            for (var i = 0; i < checkboxes.length; i++) {
+                ids.push(checkboxes[i].value)
+            }
+            var param = {
+                ids: ids,
+            };
+
+            Swal.fire({
+                title: 'Məlumatları silmək istədiyinizə əminsinizmi?',
+                showCancelButton: true,
+                confirmButtonText: 'Bəli',
+                cancelButtonText: 'Xeyr',
+            }).then((result) => {
+                if (result.isConfirmed) {
+                    axios.post(url, param)
+                        .then(r => {
+                            if (r.data) {
+                                Swal.fire({
+                                    title: 'Diqqət!',
+                                    text: 'Məlumatlar silindi!',
+                                    icon: 'success',
+                                }).then((result) => {
+                                    if (result.isConfirmed) {
+                                        location.reload();
+                                    }
+                                });
+                            } else {
+                                Swal.fire({
+                                    title: 'Diqqət!',
+                                    text: 'Məlumatlar silinərkən xəta baş verdi!',
+                                    icon: 'error',
+                                });
+                            }
+                        })
+                        .catch(function (e) {
+                            Swal.fire({
+                                title: 'Diqqət!',
+                                text: 'Xəta baş verdi!',
+                                icon: 'error',
+                            });
+                        });
+                }
+            });
+        }
+
+        $(document).ready(function () {
+            $('#select-all').click(function (event) {
+                if (this.checked) {
+                    // Iterate each checkbox
+                    $(':checkbox').each(function () {
+                        this.checked = true;
+                    });
+                } else {
+                    $(':checkbox').each(function () {
+                        this.checked = false;
+                    });
+                }
+            });
+        });
+        function filemanagerOpen(button) {
+            var button = document.getElementById(button);
+            var source = button.getAttribute('data-src'); // Get the source URL from the button's data-src attribute
+
+            Fancybox.show([
+                {
+                    src: source,
+                    type: "iframe",
+                    preload: false,
+
+                },
+            ]);
+        }
+        function responsive_filemanager_callback(field_id) {
+            Fancybox.close()
+        }
+        document.querySelectorAll('#navbar-deals-detail  a.nav-link').forEach(function (link) {
+            link.addEventListener('click', function (e) {
+                e.preventDefault();
+                var targetId = link.getAttribute('href');
+                var target = document.querySelector(targetId);
+                if (target) {
+                    window.scrollTo({
+                        top: target.offsetTop,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+        // $("input[name='sequ']").TouchSpin({
+        //   verticalbuttons: true,
+        // });
+        document.getElementById("submitButton").addEventListener("click", function () {
+            var form = document.getElementById("Form");
+
+            // Trigger form validation
+            if (form.reportValidity()) {
+                // Perform your custom form validation here if needed
+                // If validation passes, you can submit the form manually
+                form.submit();
+            }
+
+        });
+        function highlightActiveLink() {
+            const navbarLinks = document.querySelectorAll("main #navbar-deals-detail .nav-link");
+            const sectionIds = Array.from(navbarLinks).map(link => link.getAttribute("href"));
+
+            const scrollPosition = window.scrollY;
+
+            sectionIds.forEach(sectionId => {
+                const section = document.querySelector(sectionId);
+                if (section) {
+                    const sectionTop = section.offsetTop;
+                    const sectionBottom = sectionTop + section.clientHeight;
+
+                    if (scrollPosition >= sectionTop && scrollPosition < sectionBottom) {
+                        navbarLinks.forEach(link => link.classList.remove("active"));
+                        document.querySelector(`.nav-link[href="${sectionId}"]`).classList.add("active");
+                    }
+                }
+            });
+        };
+        window.onload = highlightActiveLink;
+
+        // Call the function on scroll
+        window.addEventListener("scroll", highlightActiveLink);
+
+    </script>
+</body>
+
+</html>

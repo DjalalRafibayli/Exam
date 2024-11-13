@@ -1,0 +1,78 @@
+﻿@using Container.Base
+@using Container.Models.Student
+@model ResponseModel<StudentListGetModel>;
+
+<style>
+    .fixed-card-header {
+        position: sticky;
+        top: 60px;
+        width: 100%;
+        z-index: 999;
+    }
+</style>
+<h2 class="mb-4">Redaktə Şagird</h2>
+
+<div class="row">
+    <div class="col-12 col-xl-12 order-1 order-xl-0">
+        <div class="card shadow-none border border-300 my-4">
+            <div class="card-header fixed-card-header bg-white">
+                <div class="row align-items-center justify-content-between g-3 ml-3 mr-3">
+                    <div class="col-auto">
+                        <button type="button" onclick="window.location.href='<?= 'view.php?lang='.$lang.'&menu='.$get_menu?>'" class="btn btn-phoenix-primary px-5">Geri</button>
+                        <button type="submit" id="submitButton" class="btn btn-primary px-5">Yadda Saxla</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card-body p-0">
+                <div class="p-4">
+                    @if (TempData["success"] == "Ok")
+                    {
+                        <div class="alert alert-outline-success d-flex align-items-center" role="alert">
+                            <span class="fas fa-check-circle text-success fs-3 me-3"></span>
+                            <p class="mb-0 flex-1">Müvəffəqiyyət! Əməliyyat uğurla başa çatdı...</p>
+                            <button class="btn-close" type="button" data-bs-dismiss="alert" aria-label="Close"></button>
+                        </div>
+                    }
+                    <form class="row g-3 mb-6" action="" method="post" id="Form">
+                        <div class="row g-3 mb-6">
+                            <div class="col-sm-6 col-md-6">
+                                <div class="form-floating">
+                                    <input class="form-control" name="name" value="@Model.Data.Name" id="floatingInputGrid" type="text" placeholder="Adı" required />
+                                    <label for="floatingInputGrid">Adı</label>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-6">
+                                <div class="form-floating">
+                                    <input class="form-control" name="lastname" value="@Model.Data.LastName" id="floatingInputGrid" type="text" placeholder="Soyad" required />
+                                    <label for="floatingInputGrid">Soyad</label>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4">
+                                <div class="flatpickr-input-container">
+                                    <div class="form-floating">
+                                        <input class="form-control" id="sequ" name="number" value="@Model.Data.Number" type="number" min="0" placeholder="Nomresi" required />
+                                        <label class="form-label" for="sequ">Nomresi</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4">
+                                <div class="flatpickr-input-container">
+                                    <div class="form-floating">
+                                        <input class="form-control" id="sequ" name="class" value="@Model.Data.Class" type="number" min="0" placeholder="Sinif" required />
+                                        <label class="form-label" for="sequ">Sinif</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 gy-6">
+                            <div class="row g-3 justify-content-end">
+                                <div class="col-auto"><button type="button" onclick="window.location.href='/student/'" class="btn btn-phoenix-primary px-5">Geri</button></div>
+                                <div class="col-auto"><button type="submit" class="btn btn-primary px-5 px-sm-15">Yadda Saxla</button></div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,17 @@
+C:\Users\User\source\repos\ProSysExamSystem\Exam.Application\bin\Debug\net8.0\Exam.Application.deps.json
+C:\Users\User\source\repos\ProSysExamSystem\Exam.Application\bin\Debug\net8.0\Exam.Application.dll
+C:\Users\User\source\repos\ProSysExamSystem\Exam.Application\bin\Debug\net8.0\Exam.Application.pdb
+C:\Users\User\source\repos\ProSysExamSystem\Exam.Application\bin\Debug\net8.0\Container.dll
+C:\Users\User\source\repos\ProSysExamSystem\Exam.Application\bin\Debug\net8.0\Exam.Domain.dll
+C:\Users\User\source\repos\ProSysExamSystem\Exam.Application\bin\Debug\net8.0\Container.pdb
+C:\Users\User\source\repos\ProSysExamSystem\Exam.Application\bin\Debug\net8.0\Exam.Domain.pdb
+C:\Users\User\source\repos\ProSysExamSystem\Exam.Application\obj\Debug\net8.0\Exam.Application.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\ProSysExamSystem\Exam.Application\obj\Debug\net8.0\Exam.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\ProSysExamSystem\Exam.Application\obj\Debug\net8.0\Exam.Application.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\ProSysExamSystem\Exam.Application\obj\Debug\net8.0\Exam.Application.AssemblyInfo.cs
+C:\Users\User\source\repos\ProSysExamSystem\Exam.Application\obj\Debug\net8.0\Exam.Application.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\ProSysExamSystem\Exam.Application\obj\Debug\net8.0\Exam.App.914ACFA5.Up2Date
+C:\Users\User\source\repos\ProSysExamSystem\Exam.Application\obj\Debug\net8.0\Exam.Application.dll
+C:\Users\User\source\repos\ProSysExamSystem\Exam.Application\obj\Debug\net8.0\refint\Exam.Application.dll
+C:\Users\User\source\repos\ProSysExamSystem\Exam.Application\obj\Debug\net8.0\Exam.Application.pdb
+C:\Users\User\source\repos\ProSysExamSystem\Exam.Application\obj\Debug\net8.0\ref\Exam.Application.dll

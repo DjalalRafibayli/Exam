@@ -1,0 +1,14 @@
+C:\Users\User\source\repos\ProSysExamSystem\Exam.Domain\bin\Debug\net8.0\Exam.Domain.deps.json
+C:\Users\User\source\repos\ProSysExamSystem\Exam.Domain\bin\Debug\net8.0\Exam.Domain.runtimeconfig.json
+C:\Users\User\source\repos\ProSysExamSystem\Exam.Domain\bin\Debug\net8.0\Exam.Domain.dll
+C:\Users\User\source\repos\ProSysExamSystem\Exam.Domain\bin\Debug\net8.0\Exam.Domain.pdb
+C:\Users\User\source\repos\ProSysExamSystem\Exam.Domain\obj\Debug\net8.0\Exam.Domain.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\ProSysExamSystem\Exam.Domain\obj\Debug\net8.0\Exam.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\ProSysExamSystem\Exam.Domain\obj\Debug\net8.0\Exam.Domain.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\ProSysExamSystem\Exam.Domain\obj\Debug\net8.0\Exam.Domain.AssemblyInfo.cs
+C:\Users\User\source\repos\ProSysExamSystem\Exam.Domain\obj\Debug\net8.0\Exam.Domain.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\ProSysExamSystem\Exam.Domain\obj\Debug\net8.0\Exam.Domain.dll
+C:\Users\User\source\repos\ProSysExamSystem\Exam.Domain\obj\Debug\net8.0\refint\Exam.Domain.dll
+C:\Users\User\source\repos\ProSysExamSystem\Exam.Domain\obj\Debug\net8.0\Exam.Domain.pdb
+C:\Users\User\source\repos\ProSysExamSystem\Exam.Domain\obj\Debug\net8.0\Exam.Domain.genruntimeconfig.cache
+C:\Users\User\source\repos\ProSysExamSystem\Exam.Domain\obj\Debug\net8.0\ref\Exam.Domain.dll
