@@ -1,0 +1,899 @@
+2024-11-14 00:01:09.807 +04:00 [INF] Request Method: POST, Path: /api/Lesson/add
+2024-11-14 00:01:09.870 +04:00 [INF] Request Body: {
+  "code": "123",
+  "name": "string",
+  "class": 1,
+  "teacherName": "string",
+  "teacherLastName": "string"
+}
+2024-11-14 00:01:13.395 +04:00 [ERR] Validator "AddLessonRequestValidator" can't be used with ASP.NET automatic validation as it contains asynchronous rules. ASP.NET's validation pipeline is not asynchronous and can't invoke asynchronous rules. Remove the asynchronous rules in order for this validator to run.
+FluentValidation.AsyncValidatorInvokedSynchronouslyException: Validator "AddLessonRequestValidator" can't be used with ASP.NET automatic validation as it contains asynchronous rules. ASP.NET's validation pipeline is not asynchronous and can't invoke asynchronous rules. Remove the asynchronous rules in order for this validator to run.
+   at FluentValidation.AbstractValidator`1.Validate(ValidationContext`1 context) in /_/src/FluentValidation/AbstractValidator.cs:line 207
+   at FluentValidation.AbstractValidator`1.FluentValidation.IValidator.Validate(IValidationContext context) in /_/src/FluentValidation/AbstractValidator.cs:line 153
+   at FluentValidation.AspNetCore.FluentValidationModelValidator.Validate(ModelValidationContext mvContext) in /_/src/FluentValidation.AspNetCore/FluentValidationModelValidatorProvider.cs:line 146
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.ValidateNode()
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitComplexType(IValidationStrategy defaultStrategy)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitImplementation(ModelMetadata& metadata, String& key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.Visit(ModelMetadata metadata, String key, Object model)
+   at FluentValidation.AspNetCore.FluentValidationVisitor.<>n__1(ModelMetadata metadata, String key, Object model, Boolean alwaysValidateAtTopLevel, Object container)
+   at FluentValidation.AspNetCore.FluentValidationVisitor.<>c__DisplayClass2_0.<Validate>g__BaseValidate|0() in /_/src/FluentValidation.AspNetCore/FluentValidationVisitor.cs:line 45
+   at FluentValidation.AspNetCore.FluentValidationVisitor.ValidateInternal(ModelMetadata metadata, String key, Object model, Func`1 continuation) in /_/src/FluentValidation.AspNetCore/FluentValidationVisitor.cs:line 63
+   at FluentValidation.AspNetCore.FluentValidationVisitor.Validate(ModelMetadata metadata, String key, Object model, Boolean alwaysValidateAtTopLevel, Object container) in /_/src/FluentValidation.AspNetCore/FluentValidationVisitor.cs:line 47
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ObjectModelValidator.Validate(ActionContext actionContext, ValidationStateDictionary validationState, String prefix, Object model, ModelMetadata metadata, Object container)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.EnforceBindRequiredAndValidate(ObjectModelValidator baseObjectValidator, ActionContext actionContext, ParameterDescriptor parameter, ModelMetadata metadata, ModelBindingContext modelBindingContext, ModelBindingResult modelBindingResult, Object container)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.BindModelAsync(ActionContext actionContext, IModelBinder modelBinder, IValueProvider valueProvider, ParameterDescriptor parameter, ModelMetadata metadata, Object value, Object container)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerBinderDelegateProvider.<>c__DisplayClass0_0.<<CreateBinderDelegate>g__Bind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Exam.Application.MIddlewares.RequestResponseLoggingMiddleware.Invoke(HttpContext context) in C:\Users\User\source\repos\ProSysExamSystem\Exam.Application\MIddlewares\RequestResponseLoggingMiddleware.cs:line 38
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Exam.Application.MIddlewares.ExceptionMiddleware.InvokeAsync(HttpContext context) in C:\Users\User\source\repos\ProSysExamSystem\Exam.Application\MIddlewares\ExceptionMiddleware.cs:line 21
+2024-11-14 00:04:25.542 +04:00 [INF] Request Method: POST, Path: /api/Lesson/add
+2024-11-14 00:04:25.589 +04:00 [INF] Request Body: {
+  "code": "123",
+  "name": "string",
+  "class": 1,
+  "teacherName": "string",
+  "teacherLastName": "string"
+}
+2024-11-14 00:04:28.123 +04:00 [ERR] Validator "AddLessonRequestValidator" can't be used with ASP.NET automatic validation as it contains asynchronous rules. ASP.NET's validation pipeline is not asynchronous and can't invoke asynchronous rules. Remove the asynchronous rules in order for this validator to run.
+FluentValidation.AsyncValidatorInvokedSynchronouslyException: Validator "AddLessonRequestValidator" can't be used with ASP.NET automatic validation as it contains asynchronous rules. ASP.NET's validation pipeline is not asynchronous and can't invoke asynchronous rules. Remove the asynchronous rules in order for this validator to run.
+   at FluentValidation.AbstractValidator`1.Validate(ValidationContext`1 context) in /_/src/FluentValidation/AbstractValidator.cs:line 207
+   at FluentValidation.AbstractValidator`1.FluentValidation.IValidator.Validate(IValidationContext context) in /_/src/FluentValidation/AbstractValidator.cs:line 153
+   at FluentValidation.AspNetCore.FluentValidationModelValidator.Validate(ModelValidationContext mvContext) in /_/src/FluentValidation.AspNetCore/FluentValidationModelValidatorProvider.cs:line 146
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.ValidateNode()
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitComplexType(IValidationStrategy defaultStrategy)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitImplementation(ModelMetadata& metadata, String& key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.Visit(ModelMetadata metadata, String key, Object model)
+   at FluentValidation.AspNetCore.FluentValidationVisitor.<>n__1(ModelMetadata metadata, String key, Object model, Boolean alwaysValidateAtTopLevel, Object container)
+   at FluentValidation.AspNetCore.FluentValidationVisitor.<>c__DisplayClass2_0.<Validate>g__BaseValidate|0() in /_/src/FluentValidation.AspNetCore/FluentValidationVisitor.cs:line 45
+   at FluentValidation.AspNetCore.FluentValidationVisitor.ValidateInternal(ModelMetadata metadata, String key, Object model, Func`1 continuation) in /_/src/FluentValidation.AspNetCore/FluentValidationVisitor.cs:line 63
+   at FluentValidation.AspNetCore.FluentValidationVisitor.Validate(ModelMetadata metadata, String key, Object model, Boolean alwaysValidateAtTopLevel, Object container) in /_/src/FluentValidation.AspNetCore/FluentValidationVisitor.cs:line 47
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ObjectModelValidator.Validate(ActionContext actionContext, ValidationStateDictionary validationState, String prefix, Object model, ModelMetadata metadata, Object container)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.EnforceBindRequiredAndValidate(ObjectModelValidator baseObjectValidator, ActionContext actionContext, ParameterDescriptor parameter, ModelMetadata metadata, ModelBindingContext modelBindingContext, ModelBindingResult modelBindingResult, Object container)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.BindModelAsync(ActionContext actionContext, IModelBinder modelBinder, IValueProvider valueProvider, ParameterDescriptor parameter, ModelMetadata metadata, Object value, Object container)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerBinderDelegateProvider.<>c__DisplayClass0_0.<<CreateBinderDelegate>g__Bind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Exam.Application.MIddlewares.RequestResponseLoggingMiddleware.Invoke(HttpContext context) in C:\Users\User\source\repos\ProSysExamSystem\Exam.Application\MIddlewares\RequestResponseLoggingMiddleware.cs:line 38
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Exam.Application.MIddlewares.ExceptionMiddleware.InvokeAsync(HttpContext context) in C:\Users\User\source\repos\ProSysExamSystem\Exam.Application\MIddlewares\ExceptionMiddleware.cs:line 21
+2024-11-14 00:35:15.804 +04:00 [INF] Request Method: POST, Path: /api/Lesson/add
+2024-11-14 00:35:15.872 +04:00 [INF] Request Body: {
+  "code": "123",
+  "name": "string",
+  "class": 1,
+  "teacherName": "string",
+  "teacherLastName": "string"
+}
+2024-11-14 00:36:27.673 +04:00 [INF] Request Method: POST, Path: /api/Lesson/add
+2024-11-14 00:36:27.740 +04:00 [INF] Request Body: {
+  "code": "123",
+  "name": "string",
+  "class": 1,
+  "teacherName": "string",
+  "teacherLastName": "string"
+}
+2024-11-14 00:36:40.863 +04:00 [ERR] Validator "AddLessonRequestValidator" contains asynchronous rules but was invoked synchronously. Please call ValidateAsync rather than Validate.
+FluentValidation.AsyncValidatorInvokedSynchronouslyException: Validator "AddLessonRequestValidator" contains asynchronous rules but was invoked synchronously. Please call ValidateAsync rather than Validate.
+   at FluentValidation.AbstractValidator`1.Validate(ValidationContext`1 context) in /_/src/FluentValidation/AbstractValidator.cs:line 207
+   at FluentValidation.AbstractValidator`1.Validate(T instance) in /_/src/FluentValidation/AbstractValidator.cs:line 167
+   at Exam.Application.Services.Lesson.LessonService.AddLesson(AddLessonRequest lesson) in C:\Users\User\source\repos\ProSysExamSystem\Exam.Application\Services\Lesson\LessonService.cs:line 21
+   at Exam.Api.Controllers.LessonController.Add(AddLessonRequest request) in C:\Users\User\source\repos\ProSysExamSystem\Exam.Api\Controllers\LessonController.cs:line 23
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Exam.Application.MIddlewares.RequestResponseLoggingMiddleware.Invoke(HttpContext context) in C:\Users\User\source\repos\ProSysExamSystem\Exam.Application\MIddlewares\RequestResponseLoggingMiddleware.cs:line 38
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Exam.Application.MIddlewares.ExceptionMiddleware.InvokeAsync(HttpContext context) in C:\Users\User\source\repos\ProSysExamSystem\Exam.Application\MIddlewares\ExceptionMiddleware.cs:line 22
+2024-11-14 00:38:18.493 +04:00 [INF] Request Method: POST, Path: /api/Lesson/add
+2024-11-14 00:38:18.629 +04:00 [INF] Request Body: {
+  "code": "123",
+  "name": "string",
+  "class": 1,
+  "teacherName": "string",
+  "teacherLastName": "string"
+}
+2024-11-14 00:39:33.602 +04:00 [INF] Request Method: POST, Path: /api/Lesson/add
+2024-11-14 00:39:33.685 +04:00 [INF] Request Body: {
+  "code": "123",
+  "name": "string",
+  "class": 1,
+  "teacherName": "string",
+  "teacherLastName": "string"
+}
+2024-11-14 00:40:05.661 +04:00 [ERR] The provider for the source 'IQueryable' doesn't implement 'IAsyncQueryProvider'. Only providers that implement 'IAsyncQueryProvider' can be used for Entity Framework asynchronous operations.
+System.InvalidOperationException: The provider for the source 'IQueryable' doesn't implement 'IAsyncQueryProvider'. Only providers that implement 'IAsyncQueryProvider' can be used for Entity Framework asynchronous operations.
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ExecuteAsync[TSource,TResult](MethodInfo operatorMethodInfo, IQueryable`1 source, Expression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ExecuteAsync[TSource,TResult](MethodInfo operatorMethodInfo, IQueryable`1 source, LambdaExpression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.AnyAsync[TSource](IQueryable`1 source, Expression`1 predicate, CancellationToken cancellationToken)
+   at Exam.Application.Repositories.Base.BaseRepository`1.IsUniqueAsync[TProperty](Expression`1 propertySelector, TProperty value, Int32 id)
+   at Exam.Application.Validations.Lesson.AddLessonRequestValidator.<.ctor>b__1_5(String code, CancellationToken cancellationToken) in C:\Users\User\source\repos\ProSysExamSystem\Exam.Application\Validations\Lesson\AddLessonRequestValidator.cs:line 22
+   at FluentValidation.Internal.RuleComponent`2.ValidateAsync(ValidationContext`1 context, TProperty value, Boolean useAsync, CancellationToken cancellation) in /_/src/FluentValidation/Internal/RuleComponent.cs:line 71
+   at FluentValidation.Internal.PropertyRule`2.ValidateAsync(ValidationContext`1 context, Boolean useAsync, CancellationToken cancellation) in /_/src/FluentValidation/Internal/PropertyRule.cs:line 143
+   at FluentValidation.AbstractValidator`1.ValidateInternalAsync(ValidationContext`1 context, Boolean useAsync, CancellationToken cancellation) in /_/src/FluentValidation/AbstractValidator.cs:line 241
+   at FluentValidation.AbstractValidator`1.ValidateAsync(ValidationContext`1 context, CancellationToken cancellation) in /_/src/FluentValidation/AbstractValidator.cs:line 220
+   at Exam.Application.Services.Lesson.LessonService.AddLesson(AddLessonRequest lesson) in C:\Users\User\source\repos\ProSysExamSystem\Exam.Application\Services\Lesson\LessonService.cs:line 22
+   at Exam.Api.Controllers.LessonController.Add(AddLessonRequest request) in C:\Users\User\source\repos\ProSysExamSystem\Exam.Api\Controllers\LessonController.cs:line 23
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Exam.Application.MIddlewares.RequestResponseLoggingMiddleware.Invoke(HttpContext context) in C:\Users\User\source\repos\ProSysExamSystem\Exam.Application\MIddlewares\RequestResponseLoggingMiddleware.cs:line 38
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Exam.Application.MIddlewares.ExceptionMiddleware.InvokeAsync(HttpContext context) in C:\Users\User\source\repos\ProSysExamSystem\Exam.Application\MIddlewares\ExceptionMiddleware.cs:line 22
+2024-11-14 00:40:09.397 +04:00 [INF] Request Method: POST, Path: /api/Lesson/add
+2024-11-14 00:40:09.399 +04:00 [INF] Request Body: {
+  "code": "123",
+  "name": "string",
+  "class": 1,
+  "teacherName": "string",
+  "teacherLastName": "string"
+}
+2024-11-14 00:40:27.918 +04:00 [ERR] The provider for the source 'IQueryable' doesn't implement 'IAsyncQueryProvider'. Only providers that implement 'IAsyncQueryProvider' can be used for Entity Framework asynchronous operations.
+System.InvalidOperationException: The provider for the source 'IQueryable' doesn't implement 'IAsyncQueryProvider'. Only providers that implement 'IAsyncQueryProvider' can be used for Entity Framework asynchronous operations.
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ExecuteAsync[TSource,TResult](MethodInfo operatorMethodInfo, IQueryable`1 source, Expression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ExecuteAsync[TSource,TResult](MethodInfo operatorMethodInfo, IQueryable`1 source, LambdaExpression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.AnyAsync[TSource](IQueryable`1 source, Expression`1 predicate, CancellationToken cancellationToken)
+   at Exam.Application.Repositories.Base.BaseRepository`1.IsUniqueAsync[TProperty](Expression`1 propertySelector, TProperty value, Int32 id)
+   at Exam.Application.Validations.Lesson.AddLessonRequestValidator.<.ctor>b__1_5(String code, CancellationToken cancellationToken) in C:\Users\User\source\repos\ProSysExamSystem\Exam.Application\Validations\Lesson\AddLessonRequestValidator.cs:line 22
+   at FluentValidation.Internal.RuleComponent`2.ValidateAsync(ValidationContext`1 context, TProperty value, Boolean useAsync, CancellationToken cancellation) in /_/src/FluentValidation/Internal/RuleComponent.cs:line 71
+   at FluentValidation.Internal.PropertyRule`2.ValidateAsync(ValidationContext`1 context, Boolean useAsync, CancellationToken cancellation) in /_/src/FluentValidation/Internal/PropertyRule.cs:line 143
+   at FluentValidation.AbstractValidator`1.ValidateInternalAsync(ValidationContext`1 context, Boolean useAsync, CancellationToken cancellation) in /_/src/FluentValidation/AbstractValidator.cs:line 241
+   at FluentValidation.AbstractValidator`1.ValidateAsync(ValidationContext`1 context, CancellationToken cancellation) in /_/src/FluentValidation/AbstractValidator.cs:line 220
+   at Exam.Application.Services.Lesson.LessonService.AddLesson(AddLessonRequest lesson) in C:\Users\User\source\repos\ProSysExamSystem\Exam.Application\Services\Lesson\LessonService.cs:line 22
+   at Exam.Api.Controllers.LessonController.Add(AddLessonRequest request) in C:\Users\User\source\repos\ProSysExamSystem\Exam.Api\Controllers\LessonController.cs:line 23
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Exam.Application.MIddlewares.RequestResponseLoggingMiddleware.Invoke(HttpContext context) in C:\Users\User\source\repos\ProSysExamSystem\Exam.Application\MIddlewares\RequestResponseLoggingMiddleware.cs:line 38
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Exam.Application.MIddlewares.ExceptionMiddleware.InvokeAsync(HttpContext context) in C:\Users\User\source\repos\ProSysExamSystem\Exam.Application\MIddlewares\ExceptionMiddleware.cs:line 22
+2024-11-14 00:43:07.719 +04:00 [INF] Request Method: POST, Path: /api/Lesson/add
+2024-11-14 00:43:07.805 +04:00 [INF] Request Body: {
+  "code": "123",
+  "name": "string",
+  "class": 1,
+  "teacherName": "string",
+  "teacherLastName": "string"
+}
+2024-11-14 00:43:19.199 +04:00 [ERR] Validation failed: 
+ -- Code: The specified condition was not met for 'Code'. Severity: Error
+FluentValidation.ValidationException: Validation failed: 
+ -- Code: The specified condition was not met for 'Code'. Severity: Error
+   at Exam.Application.Services.Lesson.LessonService.AddLesson(AddLessonRequest lesson) in C:\Users\User\source\repos\ProSysExamSystem\Exam.Application\Services\Lesson\LessonService.cs:line 26
+   at Exam.Api.Controllers.LessonController.Add(AddLessonRequest request) in C:\Users\User\source\repos\ProSysExamSystem\Exam.Api\Controllers\LessonController.cs:line 23
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Exam.Application.MIddlewares.RequestResponseLoggingMiddleware.Invoke(HttpContext context) in C:\Users\User\source\repos\ProSysExamSystem\Exam.Application\MIddlewares\RequestResponseLoggingMiddleware.cs:line 38
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Exam.Application.MIddlewares.ExceptionMiddleware.InvokeAsync(HttpContext context) in C:\Users\User\source\repos\ProSysExamSystem\Exam.Application\MIddlewares\ExceptionMiddleware.cs:line 22
+2024-11-14 00:43:24.914 +04:00 [INF] Request Method: POST, Path: /api/Lesson/add
+2024-11-14 00:43:24.921 +04:00 [INF] Request Body: {
+  "code": "123",
+  "name": "string",
+  "class": 1,
+  "teacherName": "string",
+  "teacherLastName": "string"
+}
+2024-11-14 00:44:11.071 +04:00 [INF] Request Method: POST, Path: /api/Lesson/add
+2024-11-14 00:44:11.159 +04:00 [INF] Request Body: {
+  "code": "123",
+  "name": "string",
+  "class": 1,
+  "teacherName": "string",
+  "teacherLastName": "string"
+}
+2024-11-14 00:44:19.844 +04:00 [ERR] Validation failed: 
+ -- Code: The specified condition was not met for 'Code'. Severity: Error
+FluentValidation.ValidationException: Validation failed: 
+ -- Code: The specified condition was not met for 'Code'. Severity: Error
+   at Exam.Application.Services.Lesson.LessonService.AddLesson(AddLessonRequest lesson) in C:\Users\User\source\repos\ProSysExamSystem\Exam.Application\Services\Lesson\LessonService.cs:line 26
+   at Exam.Api.Controllers.LessonController.Add(AddLessonRequest request) in C:\Users\User\source\repos\ProSysExamSystem\Exam.Api\Controllers\LessonController.cs:line 23
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Exam.Application.MIddlewares.RequestResponseLoggingMiddleware.Invoke(HttpContext context) in C:\Users\User\source\repos\ProSysExamSystem\Exam.Application\MIddlewares\RequestResponseLoggingMiddleware.cs:line 38
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Exam.Application.MIddlewares.ExceptionMiddleware.InvokeAsync(HttpContext context) in C:\Users\User\source\repos\ProSysExamSystem\Exam.Application\MIddlewares\ExceptionMiddleware.cs:line 22
+2024-11-14 00:55:17.936 +04:00 [INF] Request Method: POST, Path: /api/Lesson/add
+2024-11-14 00:55:17.996 +04:00 [INF] Request Body: {
+  "code": "123",
+  "name": "string",
+  "class": 1,
+  "teacherName": "string",
+  "teacherLastName": "string"
+}
+2024-11-14 00:55:28.481 +04:00 [ERR] Validation failed: 
+ -- Code: The specified condition was not met for 'Code'. Severity: Error
+FluentValidation.ValidationException: Validation failed: 
+ -- Code: The specified condition was not met for 'Code'. Severity: Error
+   at Exam.Application.Services.Lesson.LessonService.AddLesson(AddLessonRequest lesson) in C:\Users\User\source\repos\ProSysExamSystem\Exam.Application\Services\Lesson\LessonService.cs:line 26
+   at Exam.Api.Controllers.LessonController.Add(AddLessonRequest request) in C:\Users\User\source\repos\ProSysExamSystem\Exam.Api\Controllers\LessonController.cs:line 23
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Exam.Application.MIddlewares.RequestResponseLoggingMiddleware.Invoke(HttpContext context) in C:\Users\User\source\repos\ProSysExamSystem\Exam.Application\MIddlewares\RequestResponseLoggingMiddleware.cs:line 38
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Exam.Application.MIddlewares.ExceptionMiddleware.InvokeAsync(HttpContext context) in C:\Users\User\source\repos\ProSysExamSystem\Exam.Application\MIddlewares\ExceptionMiddleware.cs:line 22
+2024-11-14 00:55:44.404 +04:00 [INF] Request Method: POST, Path: /api/Lesson/add
+2024-11-14 00:55:44.405 +04:00 [INF] Request Body: {
+  "code": "123",
+  "name": "string",
+  "class": 1,
+  "teacherName": "string",
+  "teacherLastName": "string"
+}
+2024-11-14 00:58:13.482 +04:00 [INF] Request Method: POST, Path: /api/Lesson/add
+2024-11-14 00:58:13.518 +04:00 [INF] Request Body: {
+  "code": "123",
+  "name": "string",
+  "class": 1,
+  "teacherName": "string",
+  "teacherLastName": "string"
+}
+2024-11-14 00:58:22.228 +04:00 [ERR] Validation failed: 
+ -- Code: Code must be unique Severity: Error
+FluentValidation.ValidationException: Validation failed: 
+ -- Code: Code must be unique Severity: Error
+   at Exam.Application.Services.Lesson.LessonService.AddLesson(AddLessonRequest lesson) in C:\Users\User\source\repos\ProSysExamSystem\Exam.Application\Services\Lesson\LessonService.cs:line 26
+   at Exam.Api.Controllers.LessonController.Add(AddLessonRequest request) in C:\Users\User\source\repos\ProSysExamSystem\Exam.Api\Controllers\LessonController.cs:line 23
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Exam.Application.MIddlewares.RequestResponseLoggingMiddleware.Invoke(HttpContext context) in C:\Users\User\source\repos\ProSysExamSystem\Exam.Application\MIddlewares\RequestResponseLoggingMiddleware.cs:line 38
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Exam.Application.MIddlewares.ExceptionMiddleware.InvokeAsync(HttpContext context) in C:\Users\User\source\repos\ProSysExamSystem\Exam.Application\MIddlewares\ExceptionMiddleware.cs:line 22
+2024-11-14 00:59:11.319 +04:00 [INF] Request Method: POST, Path: /api/Lesson/add
+2024-11-14 00:59:11.320 +04:00 [INF] Request Body: {
+  "code": "123",
+  "name": "string",
+  "class": 1,
+  "teacherName": "string",
+  "teacherLastName": "string"
+}
+2024-11-14 00:59:15.571 +04:00 [ERR] Validation failed: 
+ -- Code: Code must be unique Severity: Error
+FluentValidation.ValidationException: Validation failed: 
+ -- Code: Code must be unique Severity: Error
+   at Exam.Application.Services.Lesson.LessonService.AddLesson(AddLessonRequest lesson) in C:\Users\User\source\repos\ProSysExamSystem\Exam.Application\Services\Lesson\LessonService.cs:line 26
+   at Exam.Api.Controllers.LessonController.Add(AddLessonRequest request) in C:\Users\User\source\repos\ProSysExamSystem\Exam.Api\Controllers\LessonController.cs:line 23
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Exam.Application.MIddlewares.RequestResponseLoggingMiddleware.Invoke(HttpContext context) in C:\Users\User\source\repos\ProSysExamSystem\Exam.Application\MIddlewares\RequestResponseLoggingMiddleware.cs:line 38
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Exam.Application.MIddlewares.ExceptionMiddleware.InvokeAsync(HttpContext context) in C:\Users\User\source\repos\ProSysExamSystem\Exam.Application\MIddlewares\ExceptionMiddleware.cs:line 22
+2024-11-14 01:00:21.141 +04:00 [INF] Request Method: POST, Path: /api/Lesson/add
+2024-11-14 01:00:21.183 +04:00 [INF] Request Body: {
+  "code": "123",
+  "name": "string",
+  "class": 1,
+  "teacherName": "string",
+  "teacherLastName": "string"
+}
+2024-11-14 01:00:27.730 +04:00 [ERR] Validation failed: 
+ -- Code: Code must be unique Severity: Error
+FluentValidation.ValidationException: Validation failed: 
+ -- Code: Code must be unique Severity: Error
+   at Exam.Application.Services.Lesson.LessonService.AddLesson(AddLessonRequest lesson) in C:\Users\User\source\repos\ProSysExamSystem\Exam.Application\Services\Lesson\LessonService.cs:line 26
+   at Exam.Api.Controllers.LessonController.Add(AddLessonRequest request) in C:\Users\User\source\repos\ProSysExamSystem\Exam.Api\Controllers\LessonController.cs:line 23
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Exam.Application.MIddlewares.RequestResponseLoggingMiddleware.Invoke(HttpContext context) in C:\Users\User\source\repos\ProSysExamSystem\Exam.Application\MIddlewares\RequestResponseLoggingMiddleware.cs:line 38
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Exam.Application.MIddlewares.ExceptionMiddleware.InvokeAsync(HttpContext context) in C:\Users\User\source\repos\ProSysExamSystem\Exam.Application\MIddlewares\ExceptionMiddleware.cs:line 22
+2024-11-14 01:01:09.060 +04:00 [INF] Request Method: POST, Path: /api/Lesson/add
+2024-11-14 01:01:09.125 +04:00 [INF] Request Body: {
+  "code": "123",
+  "name": "string",
+  "class": 1,
+  "teacherName": "string",
+  "teacherLastName": "string"
+}
+2024-11-14 01:01:14.951 +04:00 [ERR] Validation failed: 
+ -- Code: Code must be unique Severity: Error
+FluentValidation.ValidationException: Validation failed: 
+ -- Code: Code must be unique Severity: Error
+   at Exam.Application.Services.Lesson.LessonService.AddLesson(AddLessonRequest lesson) in C:\Users\User\source\repos\ProSysExamSystem\Exam.Application\Services\Lesson\LessonService.cs:line 26
+   at Exam.Api.Controllers.LessonController.Add(AddLessonRequest request) in C:\Users\User\source\repos\ProSysExamSystem\Exam.Api\Controllers\LessonController.cs:line 23
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Exam.Application.MIddlewares.RequestResponseLoggingMiddleware.Invoke(HttpContext context) in C:\Users\User\source\repos\ProSysExamSystem\Exam.Application\MIddlewares\RequestResponseLoggingMiddleware.cs:line 38
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Exam.Application.MIddlewares.ExceptionMiddleware.InvokeAsync(HttpContext context) in C:\Users\User\source\repos\ProSysExamSystem\Exam.Application\MIddlewares\ExceptionMiddleware.cs:line 22
+2024-11-14 01:06:33.199 +04:00 [INF] Request Method: POST, Path: /api/Exam/add
+2024-11-14 01:06:33.283 +04:00 [INF] Request Body: {
+  "lessonCode": "string",
+  "studentNumber": 0,
+  "examDate": "2024-11-13T21:06:31.250Z",
+  "score": 0
+}
+2024-11-14 01:06:34.652 +04:00 [ERR] Validation failed: 
+ -- StudentNumber: StudentNumber is required Severity: Error
+ -- Score: Score is required Severity: Error
+FluentValidation.ValidationException: Validation failed: 
+ -- StudentNumber: StudentNumber is required Severity: Error
+ -- Score: Score is required Severity: Error
+   at Exam.Application.Services.Exam.ExamService.AddExam(AddExamRequest Exam) in C:\Users\User\source\repos\ProSysExamSystem\Exam.Application\Services\Exam\ExamService.cs:line 23
+   at Exam.Api.Controllers.ExamController.Add(AddExamRequest request) in C:\Users\User\source\repos\ProSysExamSystem\Exam.Api\Controllers\ExamController.cs:line 23
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Exam.Application.MIddlewares.RequestResponseLoggingMiddleware.Invoke(HttpContext context) in C:\Users\User\source\repos\ProSysExamSystem\Exam.Application\MIddlewares\RequestResponseLoggingMiddleware.cs:line 38
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Exam.Application.MIddlewares.ExceptionMiddleware.InvokeAsync(HttpContext context) in C:\Users\User\source\repos\ProSysExamSystem\Exam.Application\MIddlewares\ExceptionMiddleware.cs:line 22
+2024-11-14 01:06:51.417 +04:00 [INF] Request Method: POST, Path: /api/Exam/add
+2024-11-14 01:06:51.426 +04:00 [INF] Request Body: {
+  "lessonCode": "12",
+  "studentNumber": 12,
+  "examDate": "2024-11-13T21:06:31.250Z",
+  "score": 1
+}
+2024-11-14 01:06:51.434 +04:00 [INF] Adding a new record of type Exam.
+2024-11-14 01:06:52.192 +04:00 [INF] Saving changes to the database.
+2024-11-14 01:06:53.111 +04:00 [ERR] An exception occurred in the database while saving changes for context type 'Exam.Domain.DbModels.ExamContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Exam_Lesson". The conflict occurred in database "Exam", table "dbo.Lesson", column 'Code'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:e8b02d1e-0692-45cb-b28f-52a91d1e07aa
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Exam_Lesson". The conflict occurred in database "Exam", table "dbo.Lesson", column 'Code'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:e8b02d1e-0692-45cb-b28f-52a91d1e07aa
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2024-11-14 01:06:56.309 +04:00 [ERR] An error occurred while saving the entity changes. See the inner exception for details.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Exam_Lesson". The conflict occurred in database "Exam", table "dbo.Lesson", column 'Code'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:e8b02d1e-0692-45cb-b28f-52a91d1e07aa
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Exam.Application.Repositories.Base.BaseRepository`1.SaveChangesAsync() in C:\Users\User\source\repos\ProSysExamSystem\Exam.Application\Repositories\Base\BaseRepository.cs:line 127
+   at Exam.Application.Repositories.Base.BaseRepository`1.AddAsync(T entity) in C:\Users\User\source\repos\ProSysExamSystem\Exam.Application\Repositories\Base\BaseRepository.cs:line 96
+   at Exam.Application.Services.Exam.ExamService.AddExam(AddExamRequest Exam) in C:\Users\User\source\repos\ProSysExamSystem\Exam.Application\Services\Exam\ExamService.cs:line 25
+   at Exam.Api.Controllers.ExamController.Add(AddExamRequest request) in C:\Users\User\source\repos\ProSysExamSystem\Exam.Api\Controllers\ExamController.cs:line 23
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Exam.Application.MIddlewares.RequestResponseLoggingMiddleware.Invoke(HttpContext context) in C:\Users\User\source\repos\ProSysExamSystem\Exam.Application\MIddlewares\RequestResponseLoggingMiddleware.cs:line 38
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Exam.Application.MIddlewares.ExceptionMiddleware.InvokeAsync(HttpContext context) in C:\Users\User\source\repos\ProSysExamSystem\Exam.Application\MIddlewares\ExceptionMiddleware.cs:line 22
+2024-11-14 01:07:24.694 +04:00 [INF] Request Method: POST, Path: /api/Exam/add
+2024-11-14 01:07:24.703 +04:00 [INF] Request Body: {
+  "lessonCode": "12",
+  "studentNumber": 12,
+  "examDate": "2024-11-13T21:06:31.250Z",
+  "score": 11
+}
+2024-11-14 01:07:24.706 +04:00 [INF] Adding a new record of type Exam.
+2024-11-14 01:07:24.709 +04:00 [INF] Saving changes to the database.
+2024-11-14 01:07:24.976 +04:00 [ERR] An exception occurred in the database while saving changes for context type 'Exam.Domain.DbModels.ExamContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The MERGE statement conflicted with the FOREIGN KEY constraint "FK_Exam_Lesson". The conflict occurred in database "Exam", table "dbo.Lesson", column 'Code'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:e8b02d1e-0692-45cb-b28f-52a91d1e07aa
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The MERGE statement conflicted with the FOREIGN KEY constraint "FK_Exam_Lesson". The conflict occurred in database "Exam", table "dbo.Lesson", column 'Code'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:e8b02d1e-0692-45cb-b28f-52a91d1e07aa
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2024-11-14 01:07:42.819 +04:00 [ERR] An error occurred while saving the entity changes. See the inner exception for details.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The MERGE statement conflicted with the FOREIGN KEY constraint "FK_Exam_Lesson". The conflict occurred in database "Exam", table "dbo.Lesson", column 'Code'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:e8b02d1e-0692-45cb-b28f-52a91d1e07aa
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Exam.Application.Repositories.Base.BaseRepository`1.SaveChangesAsync() in C:\Users\User\source\repos\ProSysExamSystem\Exam.Application\Repositories\Base\BaseRepository.cs:line 127
+   at Exam.Application.Repositories.Base.BaseRepository`1.AddAsync(T entity) in C:\Users\User\source\repos\ProSysExamSystem\Exam.Application\Repositories\Base\BaseRepository.cs:line 96
+   at Exam.Application.Services.Exam.ExamService.AddExam(AddExamRequest Exam) in C:\Users\User\source\repos\ProSysExamSystem\Exam.Application\Services\Exam\ExamService.cs:line 25
+   at Exam.Api.Controllers.ExamController.Add(AddExamRequest request) in C:\Users\User\source\repos\ProSysExamSystem\Exam.Api\Controllers\ExamController.cs:line 23
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Exam.Application.MIddlewares.RequestResponseLoggingMiddleware.Invoke(HttpContext context) in C:\Users\User\source\repos\ProSysExamSystem\Exam.Application\MIddlewares\RequestResponseLoggingMiddleware.cs:line 38
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Exam.Application.MIddlewares.ExceptionMiddleware.InvokeAsync(HttpContext context) in C:\Users\User\source\repos\ProSysExamSystem\Exam.Application\MIddlewares\ExceptionMiddleware.cs:line 22
+2024-11-14 01:08:14.565 +04:00 [INF] Request Method: GET, Path: /api/Lesson/get/1/5
+2024-11-14 01:08:14.629 +04:00 [INF] Request Body: 
+2024-11-14 01:08:14.949 +04:00 [INF] Fetching records of type Lesson with optional filter, order, and pagination.
+2024-11-14 01:08:16.120 +04:00 [INF] Applying filter to query.
+2024-11-14 01:08:16.124 +04:00 [INF] Applying ordering to query.
+2024-11-14 01:08:17.190 +04:00 [INF] Applying pagination: Page 1, Size 5.
+2024-11-14 01:08:17.627 +04:00 [INF] Response Status Code: 200
+2024-11-14 01:08:17.630 +04:00 [INF] Response Body: 
+2024-11-14 01:08:34.890 +04:00 [INF] Request Method: POST, Path: /api/Lesson/add
+2024-11-14 01:08:34.893 +04:00 [INF] Request Body: {
+  "Code": "234`",
+  "Name": "34",
+  "Class": 1,
+  "TeacherName": "111",
+  "TeacherLastName": "11"
+}
+2024-11-14 01:08:42.218 +04:00 [ERR] Validation failed: 
+ -- Code: 'Code' must be 3 characters in length. You entered 4 characters. Severity: Error
+FluentValidation.ValidationException: Validation failed: 
+ -- Code: 'Code' must be 3 characters in length. You entered 4 characters. Severity: Error
+   at Exam.Application.Services.Lesson.LessonService.AddLesson(AddLessonRequest lesson) in C:\Users\User\source\repos\ProSysExamSystem\Exam.Application\Services\Lesson\LessonService.cs:line 26
+   at Exam.Api.Controllers.LessonController.Add(AddLessonRequest request) in C:\Users\User\source\repos\ProSysExamSystem\Exam.Api\Controllers\LessonController.cs:line 23
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Exam.Application.MIddlewares.RequestResponseLoggingMiddleware.Invoke(HttpContext context) in C:\Users\User\source\repos\ProSysExamSystem\Exam.Application\MIddlewares\RequestResponseLoggingMiddleware.cs:line 38
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Exam.Application.MIddlewares.ExceptionMiddleware.InvokeAsync(HttpContext context) in C:\Users\User\source\repos\ProSysExamSystem\Exam.Application\MIddlewares\ExceptionMiddleware.cs:line 22
+2024-11-14 01:08:57.391 +04:00 [INF] Request Method: POST, Path: /api/Lesson/add
+2024-11-14 01:08:57.401 +04:00 [INF] Request Body: {
+  "Code": "234",
+  "Name": "3242423",
+  "Class": 22,
+  "TeacherName": "234",
+  "TeacherLastName": "234"
+}
+2024-11-14 01:09:10.927 +04:00 [ERR] Validation failed: 
+ -- Code: Code must be unique Severity: Error
+FluentValidation.ValidationException: Validation failed: 
+ -- Code: Code must be unique Severity: Error
+   at Exam.Application.Services.Lesson.LessonService.AddLesson(AddLessonRequest lesson) in C:\Users\User\source\repos\ProSysExamSystem\Exam.Application\Services\Lesson\LessonService.cs:line 26
+   at Exam.Api.Controllers.LessonController.Add(AddLessonRequest request) in C:\Users\User\source\repos\ProSysExamSystem\Exam.Api\Controllers\LessonController.cs:line 23
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Exam.Application.MIddlewares.RequestResponseLoggingMiddleware.Invoke(HttpContext context) in C:\Users\User\source\repos\ProSysExamSystem\Exam.Application\MIddlewares\RequestResponseLoggingMiddleware.cs:line 38
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Exam.Application.MIddlewares.ExceptionMiddleware.InvokeAsync(HttpContext context) in C:\Users\User\source\repos\ProSysExamSystem\Exam.Application\MIddlewares\ExceptionMiddleware.cs:line 22
+2024-11-14 01:09:17.580 +04:00 [INF] Request Method: POST, Path: /api/Lesson/add
+2024-11-14 01:09:17.581 +04:00 [INF] Request Body: {
+  "Code": "Ad rerum illo corrup",
+  "Name": "Guy Diaz",
+  "Class": 22,
+  "TeacherName": "Stephen Hansen",
+  "TeacherLastName": "Meyer"
+}
+2024-11-14 01:09:21.256 +04:00 [ERR] Validation failed: 
+ -- Code: 'Code' must be 3 characters in length. You entered 20 characters. Severity: Error
+FluentValidation.ValidationException: Validation failed: 
+ -- Code: 'Code' must be 3 characters in length. You entered 20 characters. Severity: Error
+   at Exam.Application.Services.Lesson.LessonService.AddLesson(AddLessonRequest lesson) in C:\Users\User\source\repos\ProSysExamSystem\Exam.Application\Services\Lesson\LessonService.cs:line 26
+   at Exam.Api.Controllers.LessonController.Add(AddLessonRequest request) in C:\Users\User\source\repos\ProSysExamSystem\Exam.Api\Controllers\LessonController.cs:line 23
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Exam.Application.MIddlewares.RequestResponseLoggingMiddleware.Invoke(HttpContext context) in C:\Users\User\source\repos\ProSysExamSystem\Exam.Application\MIddlewares\RequestResponseLoggingMiddleware.cs:line 38
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Exam.Application.MIddlewares.ExceptionMiddleware.InvokeAsync(HttpContext context) in C:\Users\User\source\repos\ProSysExamSystem\Exam.Application\MIddlewares\ExceptionMiddleware.cs:line 22
+2024-11-14 01:09:32.597 +04:00 [INF] Request Method: POST, Path: /api/Lesson/add
+2024-11-14 01:09:32.599 +04:00 [INF] Request Body: {
+  "Code": "mmm",
+  "Name": "Quintessa Workman",
+  "Class": 99,
+  "TeacherName": "MacKenzie Boyd",
+  "TeacherLastName": "Marks"
+}
+2024-11-14 01:09:34.244 +04:00 [INF] Adding a new record of type Lesson.
+2024-11-14 01:09:34.307 +04:00 [INF] Saving changes to the database.
+2024-11-14 01:09:34.536 +04:00 [INF] Response Status Code: 200
+2024-11-14 01:09:34.537 +04:00 [INF] Response Body: 
+2024-11-14 01:16:49.411 +04:00 [INF] Request Method: GET, Path: /api/Exam/get/1/5
+2024-11-14 01:16:49.446 +04:00 [INF] Request Body: 
+2024-11-14 01:16:49.756 +04:00 [INF] Fetching records of type Exam with optional filter, order, and pagination.
+2024-11-14 01:16:50.393 +04:00 [INF] Applying filter to query.
+2024-11-14 01:16:50.420 +04:00 [INF] Applying ordering to query.
+2024-11-14 01:16:51.237 +04:00 [INF] Applying pagination: Page 1, Size 5.
+2024-11-14 01:16:51.592 +04:00 [INF] Response Status Code: 200
+2024-11-14 01:16:51.594 +04:00 [INF] Response Body: 
+2024-11-14 01:16:53.432 +04:00 [INF] Request Method: GET, Path: /api/lesson/getselect
+2024-11-14 01:16:53.435 +04:00 [INF] Request Body: 
+2024-11-14 01:16:53.445 +04:00 [INF] Fetching records of type Lesson with optional filter, order, and pagination.
+2024-11-14 01:16:53.449 +04:00 [INF] Applying filter to query.
+2024-11-14 01:16:53.451 +04:00 [INF] Applying ordering to query.
+2024-11-14 01:16:53.478 +04:00 [INF] Applying pagination: Page 1, Size 10.
+2024-11-14 01:16:53.561 +04:00 [INF] Response Status Code: 200
+2024-11-14 01:16:53.564 +04:00 [INF] Response Body: 
+2024-11-14 01:16:53.582 +04:00 [INF] Request Method: GET, Path: /api/student/getselect
+2024-11-14 01:16:53.584 +04:00 [INF] Request Body: 
+2024-11-14 01:16:53.594 +04:00 [INF] Fetching records of type Student with optional filter, order, and pagination.
+2024-11-14 01:16:53.598 +04:00 [INF] Applying filter to query.
+2024-11-14 01:16:53.600 +04:00 [INF] Applying ordering to query.
+2024-11-14 01:16:53.624 +04:00 [INF] Applying pagination: Page 1, Size 10.
+2024-11-14 01:16:53.676 +04:00 [INF] Response Status Code: 200
+2024-11-14 01:16:53.678 +04:00 [INF] Response Body: 
+2024-11-14 01:17:06.995 +04:00 [INF] Request Method: POST, Path: /api/Exam/add
+2024-11-14 01:17:06.998 +04:00 [INF] Request Body: {
+  "LessonCode": "123",
+  "StudentNumber": 2,
+  "ExamDate": "2024-11-14T01:16:00",
+  "Score": 0
+}
+2024-11-14 01:17:07.819 +04:00 [ERR] Validation failed: 
+ -- Score: Score is required Severity: Error
+FluentValidation.ValidationException: Validation failed: 
+ -- Score: Score is required Severity: Error
+   at Exam.Application.Services.Exam.ExamService.AddExam(AddExamRequest Exam) in C:\Users\User\source\repos\ProSysExamSystem\Exam.Application\Services\Exam\ExamService.cs:line 23
+   at Exam.Api.Controllers.ExamController.Add(AddExamRequest request) in C:\Users\User\source\repos\ProSysExamSystem\Exam.Api\Controllers\ExamController.cs:line 23
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Exam.Application.MIddlewares.RequestResponseLoggingMiddleware.Invoke(HttpContext context) in C:\Users\User\source\repos\ProSysExamSystem\Exam.Application\MIddlewares\RequestResponseLoggingMiddleware.cs:line 38
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Exam.Application.MIddlewares.ExceptionMiddleware.InvokeAsync(HttpContext context) in C:\Users\User\source\repos\ProSysExamSystem\Exam.Application\MIddlewares\ExceptionMiddleware.cs:line 22
+2024-11-14 01:17:13.005 +04:00 [INF] Request Method: GET, Path: /api/lesson/getselect
+2024-11-14 01:17:13.008 +04:00 [INF] Request Body: 
+2024-11-14 01:17:13.012 +04:00 [INF] Fetching records of type Lesson with optional filter, order, and pagination.
+2024-11-14 01:17:13.017 +04:00 [INF] Applying filter to query.
+2024-11-14 01:17:13.019 +04:00 [INF] Applying ordering to query.
+2024-11-14 01:17:13.046 +04:00 [INF] Applying pagination: Page 1, Size 10.
+2024-11-14 01:17:13.059 +04:00 [INF] Response Status Code: 200
+2024-11-14 01:17:13.061 +04:00 [INF] Response Body: 
+2024-11-14 01:17:13.080 +04:00 [INF] Request Method: GET, Path: /api/student/getselect
+2024-11-14 01:17:13.084 +04:00 [INF] Request Body: 
+2024-11-14 01:17:13.088 +04:00 [INF] Fetching records of type Student with optional filter, order, and pagination.
+2024-11-14 01:17:13.090 +04:00 [INF] Applying filter to query.
+2024-11-14 01:17:13.091 +04:00 [INF] Applying ordering to query.
+2024-11-14 01:17:13.099 +04:00 [INF] Applying pagination: Page 1, Size 10.
+2024-11-14 01:17:13.113 +04:00 [INF] Response Status Code: 200
+2024-11-14 01:17:13.118 +04:00 [INF] Response Body: 
+2024-11-14 01:17:48.825 +04:00 [INF] Request Method: POST, Path: /api/Exam/add
+2024-11-14 01:17:48.826 +04:00 [INF] Request Body: {
+  "LessonCode": "123",
+  "StudentNumber": 2,
+  "ExamDate": "2024-11-14T01:16:00",
+  "Score": 0
+}
+2024-11-14 01:17:49.111 +04:00 [ERR] Validation failed: 
+ -- Score: Score is required Severity: Error
+FluentValidation.ValidationException: Validation failed: 
+ -- Score: Score is required Severity: Error
+   at Exam.Application.Services.Exam.ExamService.AddExam(AddExamRequest Exam) in C:\Users\User\source\repos\ProSysExamSystem\Exam.Application\Services\Exam\ExamService.cs:line 23
+   at Exam.Api.Controllers.ExamController.Add(AddExamRequest request) in C:\Users\User\source\repos\ProSysExamSystem\Exam.Api\Controllers\ExamController.cs:line 23
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Exam.Application.MIddlewares.RequestResponseLoggingMiddleware.Invoke(HttpContext context) in C:\Users\User\source\repos\ProSysExamSystem\Exam.Application\MIddlewares\RequestResponseLoggingMiddleware.cs:line 38
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Exam.Application.MIddlewares.ExceptionMiddleware.InvokeAsync(HttpContext context) in C:\Users\User\source\repos\ProSysExamSystem\Exam.Application\MIddlewares\ExceptionMiddleware.cs:line 22
+2024-11-14 01:17:50.356 +04:00 [INF] Request Method: GET, Path: /api/lesson/getselect
+2024-11-14 01:17:50.358 +04:00 [INF] Request Body: 
+2024-11-14 01:17:50.364 +04:00 [INF] Fetching records of type Lesson with optional filter, order, and pagination.
+2024-11-14 01:17:50.365 +04:00 [INF] Applying filter to query.
+2024-11-14 01:17:50.367 +04:00 [INF] Applying ordering to query.
+2024-11-14 01:17:50.375 +04:00 [INF] Applying pagination: Page 1, Size 10.
+2024-11-14 01:17:50.384 +04:00 [INF] Response Status Code: 200
+2024-11-14 01:17:50.385 +04:00 [INF] Response Body: 
+2024-11-14 01:17:50.399 +04:00 [INF] Request Method: GET, Path: /api/student/getselect
+2024-11-14 01:17:50.400 +04:00 [INF] Request Body: 
+2024-11-14 01:17:50.406 +04:00 [INF] Fetching records of type Student with optional filter, order, and pagination.
+2024-11-14 01:17:50.408 +04:00 [INF] Applying filter to query.
+2024-11-14 01:17:50.409 +04:00 [INF] Applying ordering to query.
+2024-11-14 01:17:50.416 +04:00 [INF] Applying pagination: Page 1, Size 10.
+2024-11-14 01:17:50.423 +04:00 [INF] Response Status Code: 200
+2024-11-14 01:17:50.424 +04:00 [INF] Response Body: 
+2024-11-14 01:19:04.534 +04:00 [INF] Request Method: GET, Path: /api/Lesson/get/1/5
+2024-11-14 01:19:04.571 +04:00 [INF] Request Body: 
+2024-11-14 01:19:04.760 +04:00 [INF] Fetching records of type Lesson with optional filter, order, and pagination.
+2024-11-14 01:19:05.258 +04:00 [INF] Applying filter to query.
+2024-11-14 01:19:05.264 +04:00 [INF] Applying ordering to query.
+2024-11-14 01:19:05.903 +04:00 [INF] Applying pagination: Page 1, Size 5.
+2024-11-14 01:19:06.228 +04:00 [INF] Response Status Code: 200
+2024-11-14 01:19:06.229 +04:00 [INF] Response Body: 
+2024-11-14 01:19:09.368 +04:00 [INF] Request Method: GET, Path: /api/Lesson/get/18
+2024-11-14 01:19:09.372 +04:00 [INF] Request Body: 
+2024-11-14 01:19:09.395 +04:00 [INF] Fetching a record of type Lesson with ID: 18.
+2024-11-14 01:19:09.422 +04:00 [INF] Response Status Code: 200
+2024-11-14 01:19:09.426 +04:00 [INF] Response Body: 
+2024-11-14 01:19:13.436 +04:00 [INF] Request Method: PUT, Path: /api/Lesson/edit
+2024-11-14 01:19:13.439 +04:00 [INF] Request Body: {
+  "Id": 18,
+  "Code": "123",
+  "Name": "123",
+  "Class": 1,
+  "TeacherName": "1",
+  "TeacherLastName": "1"
+}
+2024-11-14 01:19:13.489 +04:00 [INF] Fetching a record of type Lesson with ID: 18.
+2024-11-14 01:19:13.495 +04:00 [INF] Updating a record of type Lesson.
+2024-11-14 01:19:13.510 +04:00 [INF] Saving changes to the database.
+2024-11-14 01:19:13.685 +04:00 [INF] Response Status Code: 200
+2024-11-14 01:19:13.688 +04:00 [INF] Response Body: 
+2024-11-14 01:19:13.700 +04:00 [INF] Request Method: GET, Path: /api/Lesson/get/18
+2024-11-14 01:19:13.702 +04:00 [INF] Request Body: 
+2024-11-14 01:19:13.705 +04:00 [INF] Fetching a record of type Lesson with ID: 18.
+2024-11-14 01:19:13.707 +04:00 [INF] Response Status Code: 200
+2024-11-14 01:19:13.708 +04:00 [INF] Response Body: 

@@ -38,6 +38,11 @@ namespace Exam.Front.Controllers
             {
                 TempData["success"] = "Ok";
             }
+            else
+            {
+                TempData["error"] = "Ok";
+                TempData["message"] = responseModel.Errors.FirstOrDefault();
+            }
             return View();
         }
         [HttpGet("Lesson/edit/{Id}")]
@@ -55,6 +60,11 @@ namespace Exam.Front.Controllers
             if (responseModel.IsSuccess)
             {
                 TempData["success"] = "Ok";
+            }
+            else
+            {
+                TempData["error"] = "Ok";
+                TempData["message"] = responseModel.Errors.FirstOrDefault();
             }
             resp = await _responseGetaway.GetAsync($"api/Lesson/get/{model.Id}");
             var Lesson = JsonConvert.DeserializeObject<ResponseModel<LessonListGetModel>>(resp);

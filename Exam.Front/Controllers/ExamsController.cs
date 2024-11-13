@@ -59,6 +59,11 @@ namespace Exam.Front.Controllers
             {
                 TempData["success"] = "Ok";
             }
+            else
+            {
+                TempData["error"] = "Ok";
+                TempData["message"] = responseModel.Errors.FirstOrDefault();
+            }
             return View(new ExamVM
             {
                 lessons = lessonresponseModel.Data,
@@ -92,6 +97,11 @@ namespace Exam.Front.Controllers
             if (responseModel.IsSuccess)
             {
                 TempData["success"] = "Ok";
+            }
+            else
+            {
+                TempData["error"] = "Ok";
+                TempData["message"] = responseModel.Errors.FirstOrDefault();
             }
             resp = await _responseGetaway.GetAsync($"api/Exam/get/{model.Id}");
             var Exam = JsonConvert.DeserializeObject<ResponseModel<ExamListGetModel>>(resp);

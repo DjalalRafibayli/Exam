@@ -36,3 +36,4 @@ C:\Users\User\source\repos\ProSysExamSystem\Exam.Front\obj\Debug\net8.0\refint\E
 C:\Users\User\source\repos\ProSysExamSystem\Exam.Front\obj\Debug\net8.0\Exam.Front.pdb
 C:\Users\User\source\repos\ProSysExamSystem\Exam.Front\obj\Debug\net8.0\Exam.Front.genruntimeconfig.cache
 C:\Users\User\source\repos\ProSysExamSystem\Exam.Front\obj\Debug\net8.0\ref\Exam.Front.dll
+C:\Users\User\source\repos\ProSysExamSystem\Exam.Front\obj\Debug\net8.0\Exam.Front.sourcelink.json

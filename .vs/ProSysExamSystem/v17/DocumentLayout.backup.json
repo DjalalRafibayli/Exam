@@ -3,12 +3,103 @@
   "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\ProSysExamSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CDB9312B-AAF7-4767-9CFE-2B9DFB71A594}|Exam.Application\\Exam.Application.csproj|c:\\users\\user\\source\\repos\\prosysexamsystem\\exam.application\\middlewares\\requestresponseloggingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CDB9312B-AAF7-4767-9CFE-2B9DFB71A594}|Exam.Application\\Exam.Application.csproj|solutionrelative:exam.application\\middlewares\\requestresponseloggingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CFBB25FD-FE48-4027-BFBA-496F3408C966}|Exam.Front\\Exam.Front.csproj|c:\\users\\user\\source\\repos\\prosysexamsystem\\exam.front\\views\\student\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CFBB25FD-FE48-4027-BFBA-496F3408C966}|Exam.Front\\Exam.Front.csproj|solutionrelative:exam.front\\views\\student\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFBB25FD-FE48-4027-BFBA-496F3408C966}|Exam.Front\\Exam.Front.csproj|c:\\users\\user\\source\\repos\\prosysexamsystem\\exam.front\\views\\student\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CFBB25FD-FE48-4027-BFBA-496F3408C966}|Exam.Front\\Exam.Front.csproj|solutionrelative:exam.front\\views\\student\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFBB25FD-FE48-4027-BFBA-496F3408C966}|Exam.Front\\Exam.Front.csproj|c:\\users\\user\\source\\repos\\prosysexamsystem\\exam.front\\views\\lessons\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CFBB25FD-FE48-4027-BFBA-496F3408C966}|Exam.Front\\Exam.Front.csproj|solutionrelative:exam.front\\views\\lessons\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFBB25FD-FE48-4027-BFBA-496F3408C966}|Exam.Front\\Exam.Front.csproj|c:\\users\\user\\source\\repos\\prosysexamsystem\\exam.front\\views\\lessons\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CFBB25FD-FE48-4027-BFBA-496F3408C966}|Exam.Front\\Exam.Front.csproj|solutionrelative:exam.front\\views\\lessons\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFBB25FD-FE48-4027-BFBA-496F3408C966}|Exam.Front\\Exam.Front.csproj|c:\\users\\user\\source\\repos\\prosysexamsystem\\exam.front\\views\\exams\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CFBB25FD-FE48-4027-BFBA-496F3408C966}|Exam.Front\\Exam.Front.csproj|solutionrelative:exam.front\\views\\exams\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFBB25FD-FE48-4027-BFBA-496F3408C966}|Exam.Front\\Exam.Front.csproj|c:\\users\\user\\source\\repos\\prosysexamsystem\\exam.front\\views\\exams\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CFBB25FD-FE48-4027-BFBA-496F3408C966}|Exam.Front\\Exam.Front.csproj|solutionrelative:exam.front\\views\\exams\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFBB25FD-FE48-4027-BFBA-496F3408C966}|Exam.Front\\Exam.Front.csproj|c:\\users\\user\\source\\repos\\prosysexamsystem\\exam.front\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFBB25FD-FE48-4027-BFBA-496F3408C966}|Exam.Front\\Exam.Front.csproj|solutionrelative:exam.front\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFBB25FD-FE48-4027-BFBA-496F3408C966}|Exam.Front\\Exam.Front.csproj|c:\\users\\user\\source\\repos\\prosysexamsystem\\exam.front\\controllers\\lessonscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFBB25FD-FE48-4027-BFBA-496F3408C966}|Exam.Front\\Exam.Front.csproj|solutionrelative:exam.front\\controllers\\lessonscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFBB25FD-FE48-4027-BFBA-496F3408C966}|Exam.Front\\Exam.Front.csproj|c:\\users\\user\\source\\repos\\prosysexamsystem\\exam.front\\controllers\\examscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFBB25FD-FE48-4027-BFBA-496F3408C966}|Exam.Front\\Exam.Front.csproj|solutionrelative:exam.front\\controllers\\examscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CDB9312B-AAF7-4767-9CFE-2B9DFB71A594}|Exam.Application\\Exam.Application.csproj|c:\\users\\user\\source\\repos\\prosysexamsystem\\exam.application\\middlewares\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CDB9312B-AAF7-4767-9CFE-2B9DFB71A594}|Exam.Application\\Exam.Application.csproj|solutionrelative:exam.application\\middlewares\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDB9312B-AAF7-4767-9CFE-2B9DFB71A594}|Exam.Application\\Exam.Application.csproj|c:\\users\\user\\source\\repos\\prosysexamsystem\\exam.application\\services\\lesson\\lessonservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDB9312B-AAF7-4767-9CFE-2B9DFB71A594}|Exam.Application\\Exam.Application.csproj|solutionrelative:exam.application\\services\\lesson\\lessonservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FBFB14B-1BA5-46AE-9C4B-3A3C527B9685}|Exam.Api\\Exam.Api.csproj|c:\\users\\user\\source\\repos\\prosysexamsystem\\exam.api\\controllers\\lessoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FBFB14B-1BA5-46AE-9C4B-3A3C527B9685}|Exam.Api\\Exam.Api.csproj|solutionrelative:exam.api\\controllers\\lessoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDB9312B-AAF7-4767-9CFE-2B9DFB71A594}|Exam.Application\\Exam.Application.csproj|c:\\users\\user\\source\\repos\\prosysexamsystem\\exam.application\\validations\\lesson\\addlessonrequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDB9312B-AAF7-4767-9CFE-2B9DFB71A594}|Exam.Application\\Exam.Application.csproj|solutionrelative:exam.application\\validations\\lesson\\addlessonrequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFBB25FD-FE48-4027-BFBA-496F3408C966}|Exam.Front\\Exam.Front.csproj|c:\\users\\user\\source\\repos\\prosysexamsystem\\exam.front\\getaways\\responsegetaway.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFBB25FD-FE48-4027-BFBA-496F3408C966}|Exam.Front\\Exam.Front.csproj|solutionrelative:exam.front\\getaways\\responsegetaway.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDB9312B-AAF7-4767-9CFE-2B9DFB71A594}|Exam.Application\\Exam.Application.csproj|c:\\users\\user\\source\\repos\\prosysexamsystem\\exam.application\\services\\student\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDB9312B-AAF7-4767-9CFE-2B9DFB71A594}|Exam.Application\\Exam.Application.csproj|solutionrelative:exam.application\\services\\student\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDB9312B-AAF7-4767-9CFE-2B9DFB71A594}|Exam.Application\\Exam.Application.csproj|c:\\users\\user\\source\\repos\\prosysexamsystem\\exam.application\\services\\exam\\examservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDB9312B-AAF7-4767-9CFE-2B9DFB71A594}|Exam.Application\\Exam.Application.csproj|solutionrelative:exam.application\\services\\exam\\examservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDB9312B-AAF7-4767-9CFE-2B9DFB71A594}|Exam.Application\\Exam.Application.csproj|c:\\users\\user\\source\\repos\\prosysexamsystem\\exam.application\\validations\\student\\editlessonrequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDB9312B-AAF7-4767-9CFE-2B9DFB71A594}|Exam.Application\\Exam.Application.csproj|solutionrelative:exam.application\\validations\\student\\editlessonrequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDB9312B-AAF7-4767-9CFE-2B9DFB71A594}|Exam.Application\\Exam.Application.csproj|c:\\users\\user\\source\\repos\\prosysexamsystem\\exam.application\\validations\\exam\\editexamrequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDB9312B-AAF7-4767-9CFE-2B9DFB71A594}|Exam.Application\\Exam.Application.csproj|solutionrelative:exam.application\\validations\\exam\\editexamrequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDB9312B-AAF7-4767-9CFE-2B9DFB71A594}|Exam.Application\\Exam.Application.csproj|c:\\users\\user\\source\\repos\\prosysexamsystem\\exam.application\\repositories\\base\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDB9312B-AAF7-4767-9CFE-2B9DFB71A594}|Exam.Application\\Exam.Application.csproj|solutionrelative:exam.application\\repositories\\base\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\AppData\\Local\\SourceServer\\a133bb5e4f3c07df985e133da774814aae173a1b208211e0caaaffc0fa5e277d\\src\\libraries\\System.Private.CoreLib\\src\\System\\Runtime\\CompilerServices\\ValueTaskAwaiter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDB9312B-AAF7-4767-9CFE-2B9DFB71A594}|Exam.Application\\Exam.Application.csproj|c:\\users\\user\\source\\repos\\prosysexamsystem\\exam.application\\extensions\\fluentvalidationextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDB9312B-AAF7-4767-9CFE-2B9DFB71A594}|Exam.Application\\Exam.Application.csproj|solutionrelative:exam.application\\extensions\\fluentvalidationextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDB9312B-AAF7-4767-9CFE-2B9DFB71A594}|Exam.Application\\Exam.Application.csproj|c:\\users\\user\\source\\repos\\prosysexamsystem\\exam.application\\filters\\validatemodelstateattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDB9312B-AAF7-4767-9CFE-2B9DFB71A594}|Exam.Application\\Exam.Application.csproj|solutionrelative:exam.application\\filters\\validatemodelstateattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDB9312B-AAF7-4767-9CFE-2B9DFB71A594}|Exam.Application\\Exam.Application.csproj|c:\\users\\user\\source\\repos\\prosysexamsystem\\exam.application\\repositories\\lessons\\lessonrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDB9312B-AAF7-4767-9CFE-2B9DFB71A594}|Exam.Application\\Exam.Application.csproj|solutionrelative:exam.application\\repositories\\lessons\\lessonrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDB9312B-AAF7-4767-9CFE-2B9DFB71A594}|Exam.Application\\Exam.Application.csproj|c:\\users\\user\\source\\repos\\prosysexamsystem\\exam.application\\validations\\lesson\\editlessonrequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDB9312B-AAF7-4767-9CFE-2B9DFB71A594}|Exam.Application\\Exam.Application.csproj|solutionrelative:exam.application\\validations\\lesson\\editlessonrequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDB9312B-AAF7-4767-9CFE-2B9DFB71A594}|Exam.Application\\Exam.Application.csproj|c:\\users\\user\\source\\repos\\prosysexamsystem\\exam.application\\middlewares\\requestresponseloggingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDB9312B-AAF7-4767-9CFE-2B9DFB71A594}|Exam.Application\\Exam.Application.csproj|solutionrelative:exam.application\\middlewares\\requestresponseloggingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8FBFB14B-1BA5-46AE-9C4B-3A3C527B9685}|Exam.Api\\Exam.Api.csproj|c:\\users\\user\\source\\repos\\prosysexamsystem\\exam.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -37,50 +128,323 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ActivatorUtilities.cs",
-              "DocumentMoniker": "C:\\Users\\User\\AppData\\Local\\SourceServer\\02b1be66fe8bfa81c0d43ef25cebefabe174a1e67e4a4bfbd3ac15ede1231a9f\\src\\Shared\\ActivatorUtilities\\ActivatorUtilities.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\SourceServer\\02b1be66fe8bfa81c0d43ef25cebefabe174a1e67e4a4bfbd3ac15ede1231a9f\\src\\Shared\\ActivatorUtilities\\ActivatorUtilities.cs",
-              "ToolTip": "C:\\Users\\User\\AppData\\Local\\SourceServer\\02b1be66fe8bfa81c0d43ef25cebefabe174a1e67e4a4bfbd3ac15ede1231a9f\\src\\Shared\\ActivatorUtilities\\ActivatorUtilities.cs",
-              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\SourceServer\\02b1be66fe8bfa81c0d43ef25cebefabe174a1e67e4a4bfbd3ac15ede1231a9f\\src\\Shared\\ActivatorUtilities\\ActivatorUtilities.cs",
-              "ViewState": "AgIAAIMAAAAAAAAAAADgv5QAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T18:50:37.164Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ServicesExtension.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ProSysExamSystem\\Exam.Application\\Extensions\\ServicesExtension.cs",
-              "RelativeDocumentMoniker": "Exam.Application\\Extensions\\ServicesExtension.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\ProSysExamSystem\\Exam.Application\\Extensions\\ServicesExtension.cs",
-              "RelativeToolTip": "Exam.Application\\Extensions\\ServicesExtension.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T18:47:08.988Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "RequestResponseLoggingMiddleware.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ProSysExamSystem\\Exam.Application\\MIddlewares\\RequestResponseLoggingMiddleware.cs",
-              "RelativeDocumentMoniker": "Exam.Application\\MIddlewares\\RequestResponseLoggingMiddleware.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\ProSysExamSystem\\Exam.Application\\MIddlewares\\RequestResponseLoggingMiddleware.cs*",
-              "RelativeToolTip": "Exam.Application\\MIddlewares\\RequestResponseLoggingMiddleware.cs*",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAowCMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T18:36:39.055Z",
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ProSysExamSystem\\Exam.Front\\Views\\Student\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Exam.Front\\Views\\Student\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ProSysExamSystem\\Exam.Front\\Views\\Student\\Edit.cshtml",
+              "RelativeToolTip": "Exam.Front\\Views\\Student\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-13T21:18:53.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ProSysExamSystem\\Exam.Front\\Views\\Student\\Add.cshtml",
+              "RelativeDocumentMoniker": "Exam.Front\\Views\\Student\\Add.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ProSysExamSystem\\Exam.Front\\Views\\Student\\Add.cshtml",
+              "RelativeToolTip": "Exam.Front\\Views\\Student\\Add.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACYAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-13T21:18:50.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ProSysExamSystem\\Exam.Front\\Views\\Lessons\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Exam.Front\\Views\\Lessons\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ProSysExamSystem\\Exam.Front\\Views\\Lessons\\Edit.cshtml",
+              "RelativeToolTip": "Exam.Front\\Views\\Lessons\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-13T21:18:41.47Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ProSysExamSystem\\Exam.Front\\Views\\Lessons\\Add.cshtml",
+              "RelativeDocumentMoniker": "Exam.Front\\Views\\Lessons\\Add.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ProSysExamSystem\\Exam.Front\\Views\\Lessons\\Add.cshtml",
+              "RelativeToolTip": "Exam.Front\\Views\\Lessons\\Add.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-13T21:18:36.4Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ProSysExamSystem\\Exam.Front\\Views\\Exams\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Exam.Front\\Views\\Exams\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ProSysExamSystem\\Exam.Front\\Views\\Exams\\Edit.cshtml",
+              "RelativeToolTip": "Exam.Front\\Views\\Exams\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-13T21:18:22.77Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ProSysExamSystem\\Exam.Front\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "Exam.Front\\Controllers\\StudentController.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ProSysExamSystem\\Exam.Front\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "Exam.Front\\Controllers\\StudentController.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAgwEMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T19:45:48.247Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LessonsController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ProSysExamSystem\\Exam.Front\\Controllers\\LessonsController.cs",
+              "RelativeDocumentMoniker": "Exam.Front\\Controllers\\LessonsController.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ProSysExamSystem\\Exam.Front\\Controllers\\LessonsController.cs*",
+              "RelativeToolTip": "Exam.Front\\Controllers\\LessonsController.cs*",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAgwEMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T21:18:07.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ProSysExamSystem\\Exam.Front\\Views\\Exams\\Add.cshtml",
+              "RelativeDocumentMoniker": "Exam.Front\\Views\\Exams\\Add.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ProSysExamSystem\\Exam.Front\\Views\\Exams\\Add.cshtml",
+              "RelativeToolTip": "Exam.Front\\Views\\Exams\\Add.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACkAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-13T21:14:41.284Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ExamsController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ProSysExamSystem\\Exam.Front\\Controllers\\ExamsController.cs",
+              "RelativeDocumentMoniker": "Exam.Front\\Controllers\\ExamsController.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ProSysExamSystem\\Exam.Front\\Controllers\\ExamsController.cs",
+              "RelativeToolTip": "Exam.Front\\Controllers\\ExamsController.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAowGgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T19:45:48.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ResponseGetaway.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ProSysExamSystem\\Exam.Front\\Getaways\\ResponseGetaway.cs",
+              "RelativeDocumentMoniker": "Exam.Front\\Getaways\\ResponseGetaway.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ProSysExamSystem\\Exam.Front\\Getaways\\ResponseGetaway.cs",
+              "RelativeToolTip": "Exam.Front\\Getaways\\ResponseGetaway.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T19:45:48.263Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ExceptionMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ProSysExamSystem\\Exam.Application\\MIddlewares\\ExceptionMiddleware.cs",
+              "RelativeDocumentMoniker": "Exam.Application\\MIddlewares\\ExceptionMiddleware.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ProSysExamSystem\\Exam.Application\\MIddlewares\\ExceptionMiddleware.cs",
+              "RelativeToolTip": "Exam.Application\\MIddlewares\\ExceptionMiddleware.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwCQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T18:28:00.802Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ExamService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ProSysExamSystem\\Exam.Application\\Services\\Exam\\ExamService.cs",
+              "RelativeDocumentMoniker": "Exam.Application\\Services\\Exam\\ExamService.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ProSysExamSystem\\Exam.Application\\Services\\Exam\\ExamService.cs",
+              "RelativeToolTip": "Exam.Application\\Services\\Exam\\ExamService.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAowEoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T19:43:12.191Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "LessonController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ProSysExamSystem\\Exam.Api\\Controllers\\LessonController.cs",
+              "RelativeDocumentMoniker": "Exam.Api\\Controllers\\LessonController.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ProSysExamSystem\\Exam.Api\\Controllers\\LessonController.cs",
+              "RelativeToolTip": "Exam.Api\\Controllers\\LessonController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACAAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T19:45:48.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LessonService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ProSysExamSystem\\Exam.Application\\Services\\Lesson\\LessonService.cs",
+              "RelativeDocumentMoniker": "Exam.Application\\Services\\Lesson\\LessonService.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ProSysExamSystem\\Exam.Application\\Services\\Lesson\\LessonService.cs",
+              "RelativeToolTip": "Exam.Application\\Services\\Lesson\\LessonService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAD4vxYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T19:45:48.231Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AddLessonRequestValidator.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ProSysExamSystem\\Exam.Application\\Validations\\Lesson\\AddLessonRequestValidator.cs",
+              "RelativeDocumentMoniker": "Exam.Application\\Validations\\Lesson\\AddLessonRequestValidator.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ProSysExamSystem\\Exam.Application\\Validations\\Lesson\\AddLessonRequestValidator.cs",
+              "RelativeToolTip": "Exam.Application\\Validations\\Lesson\\AddLessonRequestValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T19:43:39.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "EditExamRequestValidator.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ProSysExamSystem\\Exam.Application\\Validations\\Exam\\EditExamRequestValidator.cs",
+              "RelativeDocumentMoniker": "Exam.Application\\Validations\\Exam\\EditExamRequestValidator.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ProSysExamSystem\\Exam.Application\\Validations\\Exam\\EditExamRequestValidator.cs",
+              "RelativeToolTip": "Exam.Application\\Validations\\Exam\\EditExamRequestValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T21:01:42.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "StudentService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ProSysExamSystem\\Exam.Application\\Services\\Student\\StudentService.cs",
+              "RelativeDocumentMoniker": "Exam.Application\\Services\\Student\\StudentService.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ProSysExamSystem\\Exam.Application\\Services\\Student\\StudentService.cs",
+              "RelativeToolTip": "Exam.Application\\Services\\Student\\StudentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T21:02:43.738Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "EditLessonRequestValidator.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ProSysExamSystem\\Exam.Application\\Validations\\Student\\EditLessonRequestValidator.cs",
+              "RelativeDocumentMoniker": "Exam.Application\\Validations\\Student\\EditLessonRequestValidator.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ProSysExamSystem\\Exam.Application\\Validations\\Student\\EditLessonRequestValidator.cs",
+              "RelativeToolTip": "Exam.Application\\Validations\\Student\\EditLessonRequestValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T21:03:40.682Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "BaseRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ProSysExamSystem\\Exam.Application\\Repositories\\Base\\BaseRepository.cs",
+              "RelativeDocumentMoniker": "Exam.Application\\Repositories\\Base\\BaseRepository.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ProSysExamSystem\\Exam.Application\\Repositories\\Base\\BaseRepository.cs",
+              "RelativeToolTip": "Exam.Application\\Repositories\\Base\\BaseRepository.cs",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAqwJ0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T19:45:48.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "FluentValidationExtension.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ProSysExamSystem\\Exam.Application\\Extensions\\FluentValidationExtension.cs",
+              "RelativeDocumentMoniker": "Exam.Application\\Extensions\\FluentValidationExtension.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ProSysExamSystem\\Exam.Application\\Extensions\\FluentValidationExtension.cs",
+              "RelativeToolTip": "Exam.Application\\Extensions\\FluentValidationExtension.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T19:48:58.372Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ValueTaskAwaiter.cs",
+              "DocumentMoniker": "C:\\Users\\User\\AppData\\Local\\SourceServer\\a133bb5e4f3c07df985e133da774814aae173a1b208211e0caaaffc0fa5e277d\\src\\libraries\\System.Private.CoreLib\\src\\System\\Runtime\\CompilerServices\\ValueTaskAwaiter.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\SourceServer\\a133bb5e4f3c07df985e133da774814aae173a1b208211e0caaaffc0fa5e277d\\src\\libraries\\System.Private.CoreLib\\src\\System\\Runtime\\CompilerServices\\ValueTaskAwaiter.cs",
+              "ToolTip": "C:\\Users\\User\\AppData\\Local\\SourceServer\\a133bb5e4f3c07df985e133da774814aae173a1b208211e0caaaffc0fa5e277d\\src\\libraries\\System.Private.CoreLib\\src\\System\\Runtime\\CompilerServices\\ValueTaskAwaiter.cs",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\SourceServer\\a133bb5e4f3c07df985e133da774814aae173a1b208211e0caaaffc0fa5e277d\\src\\libraries\\System.Private.CoreLib\\src\\System\\Runtime\\CompilerServices\\ValueTaskAwaiter.cs",
+              "ViewState": "AgIAAGcAAAAAAAAAAAArwH0AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T20:38:30.505Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "LessonRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ProSysExamSystem\\Exam.Application\\Repositories\\Lessons\\LessonRepository.cs",
+              "RelativeDocumentMoniker": "Exam.Application\\Repositories\\Lessons\\LessonRepository.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ProSysExamSystem\\Exam.Application\\Repositories\\Lessons\\LessonRepository.cs",
+              "RelativeToolTip": "Exam.Application\\Repositories\\Lessons\\LessonRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T20:10:02.771Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ValidateModelStateAttribute.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ProSysExamSystem\\Exam.Application\\Filters\\ValidateModelStateAttribute.cs",
+              "RelativeDocumentMoniker": "Exam.Application\\Filters\\ValidateModelStateAttribute.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ProSysExamSystem\\Exam.Application\\Filters\\ValidateModelStateAttribute.cs",
+              "RelativeToolTip": "Exam.Application\\Filters\\ValidateModelStateAttribute.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T20:29:08.714Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "EditLessonRequestValidator.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ProSysExamSystem\\Exam.Application\\Validations\\Lesson\\EditLessonRequestValidator.cs",
+              "RelativeDocumentMoniker": "Exam.Application\\Validations\\Lesson\\EditLessonRequestValidator.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ProSysExamSystem\\Exam.Application\\Validations\\Lesson\\EditLessonRequestValidator.cs",
+              "RelativeToolTip": "Exam.Application\\Validations\\Lesson\\EditLessonRequestValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T20:09:31.702Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ProSysExamSystem\\Exam.Api\\appsettings.Development.json",
               "RelativeDocumentMoniker": "Exam.Api\\appsettings.Development.json",
@@ -93,7 +457,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 24,
+              "Title": "RequestResponseLoggingMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ProSysExamSystem\\Exam.Application\\MIddlewares\\RequestResponseLoggingMiddleware.cs",
+              "RelativeDocumentMoniker": "Exam.Application\\MIddlewares\\RequestResponseLoggingMiddleware.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ProSysExamSystem\\Exam.Application\\MIddlewares\\RequestResponseLoggingMiddleware.cs",
+              "RelativeToolTip": "Exam.Application\\MIddlewares\\RequestResponseLoggingMiddleware.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAADwvyUAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T18:36:39.055Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ServicesExtension.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ProSysExamSystem\\Exam.Application\\Extensions\\ServicesExtension.cs",
+              "RelativeDocumentMoniker": "Exam.Application\\Extensions\\ServicesExtension.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ProSysExamSystem\\Exam.Application\\Extensions\\ServicesExtension.cs",
+              "RelativeToolTip": "Exam.Application\\Extensions\\ServicesExtension.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T18:47:08.988Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ActivatorUtilities.cs",
+              "DocumentMoniker": "C:\\Users\\User\\AppData\\Local\\SourceServer\\02b1be66fe8bfa81c0d43ef25cebefabe174a1e67e4a4bfbd3ac15ede1231a9f\\src\\Shared\\ActivatorUtilities\\ActivatorUtilities.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\SourceServer\\02b1be66fe8bfa81c0d43ef25cebefabe174a1e67e4a4bfbd3ac15ede1231a9f\\src\\Shared\\ActivatorUtilities\\ActivatorUtilities.cs",
+              "ToolTip": "C:\\Users\\User\\AppData\\Local\\SourceServer\\02b1be66fe8bfa81c0d43ef25cebefabe174a1e67e4a4bfbd3ac15ede1231a9f\\src\\Shared\\ActivatorUtilities\\ActivatorUtilities.cs",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\SourceServer\\02b1be66fe8bfa81c0d43ef25cebefabe174a1e67e4a4bfbd3ac15ede1231a9f\\src\\Shared\\ActivatorUtilities\\ActivatorUtilities.cs",
+              "ViewState": "AgIAAIMAAAAAAAAAAADgv5QAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T18:50:37.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ProSysExamSystem\\Exam.Api\\appsettings.json",
               "RelativeDocumentMoniker": "Exam.Api\\appsettings.json",
@@ -106,28 +509,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 25,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ProSysExamSystem\\Exam.Api\\Program.cs",
               "RelativeDocumentMoniker": "Exam.Api\\Program.cs",
               "ToolTip": "C:\\Users\\User\\source\\repos\\ProSysExamSystem\\Exam.Api\\Program.cs",
               "RelativeToolTip": "Exam.Api\\Program.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAADYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAIBJwDYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-13T18:29:36.703Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ExceptionMiddleware.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ProSysExamSystem\\Exam.Application\\MIddlewares\\ExceptionMiddleware.cs",
-              "RelativeDocumentMoniker": "Exam.Application\\MIddlewares\\ExceptionMiddleware.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\ProSysExamSystem\\Exam.Application\\MIddlewares\\ExceptionMiddleware.cs",
-              "RelativeToolTip": "Exam.Application\\MIddlewares\\ExceptionMiddleware.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T18:28:00.802Z",
               "EditorCaption": ""
             }
           ]

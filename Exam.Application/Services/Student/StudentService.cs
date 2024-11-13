@@ -1,6 +1,9 @@
 ﻿using Container.Models.Student;
 using Container.Request.Student;
 using Exam.Application.Repositories.Students;
+using Exam.Application.Validations.Exam;
+using Exam.Application.Validations.Student;
+using FluentValidation;
 
 namespace Exam.Application.Services.Student
 {
@@ -15,6 +18,11 @@ namespace Exam.Application.Services.Student
 
         public async Task AddStudent(AddStudentRequest Student)
         {
+            var validate = new AddStudentRequestValidator().Validate(Student);
+            if (!validate.IsValid)
+            {
+                throw new ValidationException(validate.Errors);
+            }
             await _studentRepository.AddAsync(new Domain.DbModels.Student
             {
                 Name = Student.Name,
@@ -79,6 +87,12 @@ namespace Exam.Application.Services.Student
 
         public async Task UpdateStudent(EditStudentRequest Student)
         {
+            var validate = new EditStudentRequestValidator().Validate(Student);
+            if (!validate.IsValid)
+            {
+                throw new ValidationException(validate.Errors);
+            }
+
             var entity = await _studentRepository.GetByIdAsync(Student.Id);
             entity.Name = Student.Name;
             entity.LastName = Student.LastName;

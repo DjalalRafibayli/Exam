@@ -10,8 +10,8 @@ namespace Exam.Application.Extensions
         public static void AddFluentValidationExtension(this IServiceCollection services)
         {
             services.AddValidatorsFromAssemblyContaining<AddLessonRequestValidator>();
-            services.AddFluentValidationAutoValidation();
-            services.AddFluentValidationClientsideAdapters();
+            //services.AddFluentValidationAutoValidation();
+            //services.AddFluentValidationClientsideAdapters();
         }
     }
 }

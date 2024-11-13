@@ -15,3 +15,4 @@ C:\Users\User\source\repos\ProSysExamSystem\Exam.Application\obj\Debug\net8.0\Ex
 C:\Users\User\source\repos\ProSysExamSystem\Exam.Application\obj\Debug\net8.0\refint\Exam.Application.dll
 C:\Users\User\source\repos\ProSysExamSystem\Exam.Application\obj\Debug\net8.0\Exam.Application.pdb
 C:\Users\User\source\repos\ProSysExamSystem\Exam.Application\obj\Debug\net8.0\ref\Exam.Application.dll
+C:\Users\User\source\repos\ProSysExamSystem\Exam.Application\obj\Debug\net8.0\Exam.Application.sourcelink.json

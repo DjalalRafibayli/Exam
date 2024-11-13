@@ -1,4 +1,5 @@
 ﻿using Container.Request.Exam;
+using Exam.Application.Repositories.Exams;
 using FluentValidation;
 
 namespace Exam.Application.Validations.Exam

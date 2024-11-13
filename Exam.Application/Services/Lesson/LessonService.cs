@@ -1,6 +1,9 @@
 ﻿using Container.Models.Lesson;
 using Container.Request.Lesson;
 using Exam.Application.Repositories.Lessons;
+using Exam.Application.Validations.Exam;
+using Exam.Application.Validations.Lesson;
+using FluentValidation;
 
 namespace Exam.Application.Services.Lesson
 {
@@ -15,6 +18,13 @@ namespace Exam.Application.Services.Lesson
 
         public async Task AddLesson(AddLessonRequest lesson)
         {
+            var validator = new AddLessonRequestValidator(_lessonRepository);
+            var validationResult = await validator.ValidateAsync(lesson);
+
+            if (!validationResult.IsValid)
+            {
+                throw new ValidationException(validationResult.Errors);
+            }
             await _lessonRepository.AddAsync(new Domain.DbModels.Lesson
             {
                 Name = lesson.Name,

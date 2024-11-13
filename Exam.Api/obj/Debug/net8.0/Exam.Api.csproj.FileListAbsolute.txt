@@ -173,3 +173,4 @@ C:\Users\User\source\repos\ProSysExamSystem\Exam.Api\bin\Debug\net8.0\Serilog.Se
 C:\Users\User\source\repos\ProSysExamSystem\Exam.Api\bin\Debug\net8.0\Serilog.Sinks.Console.dll
 C:\Users\User\source\repos\ProSysExamSystem\Exam.Api\bin\Debug\net8.0\Serilog.Sinks.Debug.dll
 C:\Users\User\source\repos\ProSysExamSystem\Exam.Api\bin\Debug\net8.0\Serilog.Sinks.File.dll
+C:\Users\User\source\repos\ProSysExamSystem\Exam.Api\obj\Debug\net8.0\Exam.Api.sourcelink.json

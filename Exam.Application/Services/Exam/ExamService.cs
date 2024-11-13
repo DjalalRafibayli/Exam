@@ -1,6 +1,8 @@
 ﻿using Container.Models.Exam;
 using Container.Request.Exam;
 using Exam.Application.Repositories.Exams;
+using Exam.Application.Validations.Exam;
+using FluentValidation;
 
 namespace Exam.Application.Services.Exam
 {
@@ -15,6 +17,11 @@ namespace Exam.Application.Services.Exam
 
         public async Task AddExam(AddExamRequest Exam)
         {
+            var validate = new AddExamRequestValidator().Validate(Exam);
+            if (!validate.IsValid)
+            {
+                throw new ValidationException(validate.Errors);
+            }
             await _examRepository.AddAsync(new Domain.DbModels.Exam
             {
                 ExamDate = DateOnly.FromDateTime(Exam.ExamDate),
@@ -69,6 +76,12 @@ namespace Exam.Application.Services.Exam
 
         public async Task UpdateExam(EditExamRequest Exam)
         {
+            var validate = new EditExamRequestValidator().Validate(Exam);
+            if (!validate.IsValid)
+            {
+                throw new ValidationException(validate.Errors);
+            }
+
             var entity = await _examRepository.GetByIdAsync(Exam.Id);
             entity.ExamDate = DateOnly.FromDateTime(Exam.ExamDate);
             entity.LessonCode = Exam.LessonCode;

@@ -12,3 +12,4 @@ C:\Users\User\source\repos\ProSysExamSystem\Exam.Domain\obj\Debug\net8.0\refint\
 C:\Users\User\source\repos\ProSysExamSystem\Exam.Domain\obj\Debug\net8.0\Exam.Domain.pdb
 C:\Users\User\source\repos\ProSysExamSystem\Exam.Domain\obj\Debug\net8.0\Exam.Domain.genruntimeconfig.cache
 C:\Users\User\source\repos\ProSysExamSystem\Exam.Domain\obj\Debug\net8.0\ref\Exam.Domain.dll
+C:\Users\User\source\repos\ProSysExamSystem\Exam.Domain\obj\Debug\net8.0\Exam.Domain.sourcelink.json

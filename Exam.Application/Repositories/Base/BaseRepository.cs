@@ -131,19 +131,31 @@ namespace Exam.Application.Repositories.Base
         {
             var dbSet = _context.Set<T>();
 
-            var predicate = PredicateBuilder.New<T>();
+            // Build predicate directly without AsExpandable
+            var parameter = Expression.Parameter(typeof(T), "e");
 
-            predicate = predicate.And(Expression.Lambda<Func<T, bool>>(
-                Expression.Equal(propertySelector.Body, Expression.Constant(value)),
-                propertySelector.Parameters));
+            // Build condition e => e.Property == value
+            var propertyExpression = Expression.Invoke(propertySelector, parameter);
+            var valueExpression = Expression.Constant(value, typeof(TProperty));
+            var equalsExpression = Expression.Equal(propertyExpression, valueExpression);
 
+            // Combine with id check if necessary
+            Expression predicateBody = equalsExpression;
             if (id != 0)
             {
-                predicate = predicate.And(e => EF.Property<int>(e, "Id") != id);
+                // Add condition for id if it's not zero
+                var idExpression = Expression.Property(parameter, "Id");
+                var notEqualIdExpression = Expression.NotEqual(idExpression, Expression.Constant(id));
+                predicateBody = Expression.AndAlso(equalsExpression, notEqualIdExpression);
             }
 
-            return !await dbSet.AsExpandable().AnyAsync(predicate);
+            // Compile the predicate
+            var predicate = Expression.Lambda<Func<T, bool>>(predicateBody, parameter);
+
+            // Execute asynchronous query with compiled predicate
+            return !await dbSet.AnyAsync(predicate);
         }
+
 
     }
 }

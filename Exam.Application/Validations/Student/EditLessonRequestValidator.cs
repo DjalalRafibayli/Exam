@@ -1,21 +1,18 @@
 ﻿using Container.Request.Lesson;
+using Container.Request.Student;
 using FluentValidation;
 
 namespace Exam.Application.Validations.Student
 {
-    public class EditLessonRequestValidator : AbstractValidator<EditLessonRequest>
+    public class EditStudentRequestValidator : AbstractValidator<EditStudentRequest>
     {
-        public EditLessonRequestValidator()
+        public EditStudentRequestValidator()
         {
-            RuleFor(x => x.TeacherLastName).NotNull().NotEmpty().WithMessage("TeacherLastName is required");
-            RuleFor(x => x.TeacherName).NotNull().NotEmpty().WithMessage("TeacherName is required");
-            RuleFor(x => x.Class).NotNull().NotEmpty().WithMessage("Class is required");
+            RuleFor(x => x.Id).NotNull().NotEmpty().WithMessage("Id is required");
+            RuleFor(x => x.Number).NotNull().NotEmpty().WithMessage("Number is required");
             RuleFor(x => x.Name).NotNull().NotEmpty().WithMessage("Name is required");
-            RuleFor(x => x.Code)
-                .NotNull()
-                .NotEmpty()
-                .WithMessage("Code is required")
-                .Length(3);
+            RuleFor(x => x.LastName).NotNull().NotEmpty().WithMessage("LastName is required");
+            RuleFor(x => x.Class).NotNull().NotEmpty().WithMessage("Class is required");
         }
     }
 }
